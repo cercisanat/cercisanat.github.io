@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="tr-TR" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <title>Çerçi</title>
+    
+
+    
+
+<meta charset="utf8" />
+<meta http-equiv="Content-Language" content="tr" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic|Ubuntu+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" href="/static/favicon.ico" />
+<link rel="stylesheet" href="/static/css/template.css" type="text/css"/>
+<link rel="stylesheet" href="/static/css/animations.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.ie.css" type="text/css"/>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/static/css/ie8.css" type="text/css"/>
+<![endif]-->
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/static/ajax_forms/js/jquery-ajax-validation.js"></script>
+<script type="text/javascript" src="/static/photobox/jquery.photobox.js"></script>
+<script type="text/javascript" src="/static/js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="/static/js/responsive/main.js"></script>
+
+
+
+    
+<link rel="stylesheet" href="/static/css/genre.css" type="text/css"/>
+<link rel="stylesheet" href="/static/css/toc.css" type="text/css"/>
+
+  </head>
+  <body>
+    
+      <header class="clearfix">
+        
+        
+        
+        <nav role="navigation" class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse"
+                data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand">
+              <img class="rotate" src="/static/images/cerci_logo2_white.png" style="height:30px" />
+              </a>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+              <ul class="auto-active nav navbar-nav navbar-left"> 
+                <li><a href="/manifesto/">MANİFESTO</a></li>
+                <li><a href="/ekip/">EKİP</a></li>  
+                <li><a href="/yazar/">ÇERÇİLER</a></li>
+                <li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>  
+                <li><a href="/blog/">BLOG</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      title="Abone ol"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-book"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <div class="subscription-form">
+                      <h3>E-posta aboneliği</h3>
+                      <form action="/newsletters/" method="post" class="ajax-form subscribe-form">
+                      <p>
+                        Abone olun ve yeni sayımız çıktığı anda haberiniz olsun.<br/>
+                        (Abonelikten istediğiniz zaman ayrılabilirsiniz.)
+                      </p>
+                      <input type='hidden' name='csrfmiddlewaretoken' value='Oe0VEE9tlhcIvzMdMyxjo9iNLQjOHtzi' />
+                      
+
+
+
+
+    
+<div class="form-group id_name ">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_name" maxlength="255" name="name" placeholder="İsim" type="text" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+    
+<div class="form-group id_email  required">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_email" maxlength="255" name="email" placeholder="Email" type="email" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+
+
+                      <button type="submit" class="btn">Abone ol</button>
+                      </form>
+                      <div class="clearfix"></div>
+                      <div class="subscribe-success">
+                        E-posta aboneliğine üyeliğiniz başarıyla gerçekleşti.<br/>
+                        Bir kayıt daha yapmak için <a href="/newsletters/" class="another-subscription">tıklayın</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-search"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <form action="/arama" class="navbar-form" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="q" placeholder="Arama" />
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              
+              <ul class="nav navbar-nav navbar-right social">
+                <li>
+                  <a href="https://www.facebook.com/CerciSanat" target="_blank"
+                    title="Facebook'ta Çerçi Sanat">
+                      <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/cercisanat" target="_blank"
+                    title="Twitter'da Çerçi Sanat">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://plus.google.com/107839000424667573646/posts"
+                    target="_blank" title="Google+'ta Çerçi Sanat">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://pinterest.com/cercisanat/" target="_blank"
+                    title="Pinterest'te Çerçi Sanat">
+                    <i class="fa fa-pinterest-p"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/cercisanat/" target="_blank"
+                    title="Instagram'da Çerçi Sanat">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/cercisanat" target="_blank"
+                    title="Github'da Çerçi Sanat">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+
+              </ul>
+              
+            </div>
+          </div>
+        </nav> 
+        
+        <div class="clearfix"></div>
+      </header>
+    <div class="container">
+      
+      
+      <div class="unnecessary-zone">
+        <div class="row row-centered logo-wrapper">
+          <div class="col-centered">
+            <a href="/" class="logo">
+              <img class="add-rotate-slow" src="/static/images/cerci_wheel_black2.png" />
+              <img src="/static/images/cerci_black2.png" />
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+
+      
+<section class="table-of-contents">
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/output.png.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/output.png.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/barbar-dunyanin-prototipleri-mavi-kumru-moteli-sakinleri">Barbar Dünyanın Prototipleri: Mavi Kumru Moteli Sakinleri</a>
+              </h1>
+              <h2><a href="/yazar/senul-kochan-korkusuz">Şenül Koçhan Korkusuz</a></h2>
+              
+              Yazar kelimeleri görerek değil, sözü işiterek  (g)özünden süzerken yarattığı ahenkle okuyucunun ağzına bir parmak bal çalıyor ve siz kitabı kapatsanız da bu lezzet dimağınızda musikî meşk etmeye devam ediyor.
+              
+              
+
+
+
+              <a class="more" href="/dergi/7/barbar-dunyanin-prototipleri-mavi-kumru-moteli-sakinleri" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/output.png.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/output.png.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/kurklu-venus-ya-cekic-ya-da-ors-olmayi-vaat-eden-bir-sozlesme-etigi">Kürklü Venüs: Ya Çekiç Ya Da Örs Olmayı Vaat Eden Bir Sözleşme Etiği</a>
+              </h1>
+              <h2><a href="/yazar/fatih-degirmen">Fatih Değirmen</a></h2>
+              
+              Roman Polanski, Kürklü Venüs (Venus in Fur, 2013) filminde, romanı olduğu gibi filme uyarlayarak, sınırları roman tarafından belirlenmiş bir anlatı oluşturmak yerine Kürklü Venüs oyununun sahneleneceği bir tiyatroda, başarısız oyuncu seçimi girişimlerinden sonra kendiliğinden gelişen olaylar etrafında kurar anlatıyı. Yönetmenin bu yaklaşımı hem romanı seyirciye anlatma imkanı verir hem de kendisinin roman hakkındaki tartışmalara dahil olmasının yolu açılır. 
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/7/kurklu-venus-ya-cekic-ya-da-ors-olmayi-vaat-eden-bir-sozlesme-etigi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/output.png.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/output.png.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/mrs-dallowayden-isleyen-duzene-icerden-elestirel-bir-bakis">Mrs. Dalloway’den İşleyen Düzene (İçerden) Eleştirel Bir Bakış </a>
+              </h1>
+              <h2><a href="/yazar/sengul-can">Şengül Can</a></h2>
+              
+              Şehir ve kadın, şehir ve erkek. Şehir ve insan çoğunlukla özdeşleştirilmiştir ve şehrin cinsiyeti de uzun zamandan beri tartışma konusu olmuştur. Londra’yı militarizm, saat kuleleri ve büyük yapıları açısından düşünecek olursak, gücün sembolü olarak erilliğin bir dışavurumu gibi de okuyabiliriz.
+              
+              
+
+
+
+              <a class="more" href="/dergi/7/mrs-dallowayden-isleyen-duzene-icerden-elestirel-bir-bakis" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/output.png.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/output.png.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/leonard-woolf-ve-cangildaki-koy">Leonard Woolf ve Cangıldaki Köy</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Ekip olarak Virginia Woolf’un eserlerine eğilmeye karar verdikten sonra, yazarın kurgu eserlerine geçmeden günlüklerini, mektuplarını ve hakkında yazılmış biyografileri okuyarak onu tanımak istedim. Bu sırada elbette intiharla sonlandıracağı hayatının sonuna kadar ona eşlik eden eşi Leonard Woolf’la da tanıştım. Virginia’yı sonuna kadar destekler görünen bir adam. Bir bit yeniği olmalıydı. Yayıncısı olarak nemalanıyordu belli ki. Okuduklarımda Leonard Woolf hakkında yazılan kısımları seçmeye başladım. Şüphelerim boşa çıkıyordu. Eh, bir de Virginia’nın son mektubunda yazılanlar eklenince… Bu adamda bir şeyler vardı.
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/7/leonard-woolf-ve-cangildaki-koy" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/6.kak_can.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/6.kak_can.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/sihirbazlar-ve-yanilsamalar">Sihirbazlar ve yanılsamalar</a>
+              </h1>
+              <h2><a href="/yazar/tulay-akyol">Tülay Akyol</a></h2>
+              
+              Beyin, gördüğü tüm şekillerde tamamen bağımsız görüntü oluşturmaz. Bulunduğu perspektif bakış, ışık, gölge gibi tüm etkenleri dahil ederek algıda yanılmamızı sağlar.
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/sihirbazlar-ve-yanilsamalar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/unnamed.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/unnamed.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/gunumuzde-gormek-uzerine-bir-tartisma">&quot;Günümüzde görmek&quot; üzerine bir tartışma</a>
+              </h1>
+              <h2><a href="/yazar/ozlem-san">Özlem Şan</a></h2>
+              
+              Fotoğraf makinesi icat edildiğinden beri görüntülerle başımız dertte. Gittikçe gelişen fotoğraf teknolojisiyle her an, her durumda ve herkes görüntü üretebilir hale geldi. Önce albümler dolusu fotoğraf biriktirdik, sonra internetle birlikte fotoğraflarımızdan bir hayat profili elde etmeye başladık. Basını, kitapları bir kenara bırakın internet bizden görüntü talep etti. Biz de ürettik. Şimdi, herkes cebine sığan telefonları, kameralarıyla bir “görüntü-üreticisi”. Peki, bunca fotoğrafa karşı ne yapıyoruz?
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/gunumuzde-gormek-uzerine-bir-tartisma" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/IMG_1375.JPG.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/IMG_1375.JPG.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/her-seyi-goren-goz-internet">Her şeyi gören göz: internet</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Her şeyi gören göz ilk çıktığı dinlerde ve mistik öğretilerde koruyucu olarak yansıtılsa da zamanla edebiyatta ve felsefede kötücül, kontrolcü ve özgürlüğü kısıtlayıcı olarak tanımlanmaya başlar. Bu süreçte her şeyi gören gözün yapısı da değişti. Artık korku ve korunma bize doğaüstü bir güç tarafından değil kurum ve kuruluşlarla onların teknolojileri tarafından sunuluyor.
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/her-seyi-goren-goz-internet" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/6.kak_can.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/6.kak_can.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/turkce-gorsel-siir-tarihi-icin-bir-kolaj-denemesi-21">Türkçe görsel şiir (tarihi) için bir kolaj denemesi 2.1*</a>
+              </h1>
+              <h2><a href="/yazar/aysegul-tozeren">Ayşegül Tözeren</a></h2>
+              
+              Görsel şiir, şiirle yaşamın arasındaki makasın iyice açılarak, kırılma noktasına geldiği bir anda şiir kamusunun gündemine düşerken, bu kopuşun bir nedeninin de şairanelik, başka bir deyişle “şair pozu” olduğunu ortaya koydu.
+
+Şair pozunu kesti, biçti, deşti, kısaca hem şiir metni içinde, hem dışında eleştirdi.
+
+Gülümsemeseniz?
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/turkce-gorsel-siir-tarihi-icin-bir-kolaj-denemesi-21" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/6.kak_can.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/6.kak_can.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/kor-baykusun-gozu-sadik-hidayet-kor-baykus-romaninda-gorsellik">Kör Baykuş&#39;un Gözü: Sâdık Hidâyet’in Kör Baykuş romanında görsellik</a>
+              </h1>
+              <h2><a href="/yazar/hulya-soysekerci">Hülya Soyşekerci</a></h2>
+              
+              Derin, karanlık, koyu, kan tadında, ürpertici bir romandır Kör Baykuş. Okurken sık sık şaşkınlığa uğrar insan. Metinde düşlerle gerçekler bir aradadır, birbirine karışmıştır ve aynı anda birbiri içinde sürer. Eserin en çarpıcı yönü; o inanılmaz, farklı, şaşırtıcı ve özgün kurgusal yapısıdır. Kör Baykuş, her şeyden önce bir bölünme, parçalanma, değişme ve dönüşme romanıdır.
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/kor-baykusun-gozu-sadik-hidayet-kor-baykus-romaninda-gorsellik" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/6.kak_can.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/6.kak_can.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/cinayete-yamuk-bakmak">Cinayete Yamuk Bakmak</a>
+              </h1>
+              <h2><a href="/yazar/gamze-andin">Gamze Andın</a></h2>
+              
+              Tüm sanat dallarında olduğu gibi yazıda da (ve bu öykü için fotoğraf sanatında öncelikle) seçtiğin konu ve yöntem önemlidir. Çünkü bir öteleme ve eleme söz konusudur. Anlatmaya değer olanı alırız ve anlatırız. Aldığımız için bu anlatmaya, göstermeye değer bir durumdur. Ya da fotoğraf sanatı için bakarsak güzeldir.
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/cinayete-yamuk-bakmak" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/ilahi-su-kadinlar">İlahi Şu Kadınlar...</a>
+              </h1>
+              <h2><a href="/yazar/ayten-berberoglu">Ayten Berberoğlu</a></h2>
+              
+              Mübarek Kadınlar adını vermiş yazar da kitabına. İlahi şu kadınlar diyesi.  Öykülerde anlatılan kadınlarda hep bir hüzün ve yenilmişlik hali. 
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/ilahi-su-kadinlar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/cuvaldizi-kendine-igneyi-baskasina-batiran-oykuler">Çuvaldızı Kendine İğneyi Başkasına Batıran Öyküler</a>
+              </h1>
+              <h2><a href="/yazar/sengul-can">Şengül Can</a></h2>
+              
+              “Hayat dediğin küçük adamların hikâyesidir, İngiltere Kraliçesi’nin hikâyesi bir boka yaramaz. “
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/cuvaldizi-kendine-igneyi-baskasina-batiran-oykuler" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/uc-yazar">Üç Yazar</a>
+              </h1>
+              <h2><a href="/yazar/tulay-akyol">Tülay Akyol</a></h2>
+              
+              Son dönem öykü yazarlarımız arasından özenle seçerek yazmak istediğim üç isim oldu. Aslına bakarsanız üçünü de yoğun bir okuma sürecinde aynı dönem okudum. Yeni yazarlar keşfetmenin keyfi ile. Ardı ardına güzel metinlerle karşılaşmak ise sürprizdi benim için. Yeni sayı yaklaştıkça, bir öykü sayısı yapalım ve "Günebakan" yazarlarımızı paylaşalım dediğimizde ise tereddütsüz üç isim söyledim; Melisa Kesmez, Sine Ergün ve Deniz Tarsus.
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/uc-yazar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/oykunun-cinsiyeti">Öykünün Cinsiyeti</a>
+              </h1>
+              <h2><a href="/yazar/ozlem-san">Özlem Şan</a></h2>
+              
+              Kundera’dan bir alıntıyla şu “kadın yazar” tanımına bir laf atmam da gerek:  “İlgilenmemiz gereken yazarların değil, romanların cinsiyeti olmalı. Bütün büyük romanlar, bütün hakiki romanlar biseksüeldir. Demek istediğim, hem kadınsı hem de erkeksi bir dünya görüşünü ifade ederler. Fiziki kişiler olarak yazarların cinsiyetleri kendi özel meseleleridir.”
+	
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/oykunun-cinsiyeti" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/yersiz-yurtsuz">Yersiz Yurtsuz Karakterlerin Öyküleri</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Çerçi Sanat’ın 5. sayısı için seçtiğim üç yazar Ayşegül Çelik, Menekşe Toprak ve Melike Uzun. Kitaplar dil işçilikleriyle de dikkat çekiyor ama benim tercih sebebim ağırlıklı olarak konuları oldu. Tek bir kitap, hatta Ayşegül Çelik’te tek bir öykü üzerinden ilerledim. Aşağıdaki satırların yeni okuma ufukları açması dileğiyle…
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/yersiz-yurtsuz" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/tarama0003_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/tarama0003_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/gelenekselle-bagimiz-uzerine-lafizlar">Gelenekselle Bağımız Üzerine Lafızlar </a>
+              </h1>
+              <h2><a href="/yazar/ayse-selen">Ayşe Selen</a>, <a href="/yazar/sehsuvar-aktas">Şehsuvar Aktaş</a></h2>
+              
+              Oysa geleneksel kavramının hayattaki karşılığı, gerek araştırma gerekse gösterim pratiğinde “eski’den” bugüne gelenlerin bendeki izleri nedir olmalı. Bende ne yaşıyor, bende ne var sorusu olmalı. Gelenek “dönüşerek gelen” bir şey. Bu nedenle biçime odaklanan bir bakış açısıyla geleneksel olan ele alındığında “dönüşerek gelen”i, belki de “kendisinde de yaşayan”ı görememe sonucunu getiriyor.
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/gelenekselle-bagimiz-uzerine-lafizlar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/soylemek-yetmez-oynamak-gerek">Söylemek Yetmez, Oynamak Gerek…</a>
+              </h1>
+              <h2><a href="/yazar/hulya-mete">Hülya Mete</a></h2>
+              
+              ‘’Çocuk… Ona hep kendisinin adam ufağı olduğu benimsetilmiştir. Oysa çok iyi bilmeliyiz ki o, beğenisiyle, iç dünyasıyla, diliyle kendine özgü bir yaratıktır. ‘’ der Ferdi Merter. Çocuk tiyatrosu, büyükler için yazılmış oyunların çocuklara uyarlanmasından, bir olayın basit bir dille sergilenmesinden ibaret değildir. Ne yazık ki Türkiye’de sahnelenen çoğu oyunda bu bakış açısı hakim.
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/soylemek-yetmez-oynamak-gerek" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/oyunu-oynamadan-oynamak">Oyunu “Oynamadan” Oynamak</a>
+              </h1>
+              <h2><a href="/yazar/basak-k-ertanoglu">Başak K. Ertanoğlu</a></h2>
+              
+              Mesela tiyatroyu ele alalım. Aslında boş bir mekanda - neresi olursa olsun - bir kişinin bile izleyici olarak baktığı her yer sahnedir. İster içerde, ister dışarıda. İzler kitlenin ne sayısı ne niteliksel özellikleri önemlidir. “Bakılan yer” dir önemli olan. Peter Brook der ki; “Herhangi boş bir mekanı alır, işte burası sahnedir diyebilirim. Bir adam bu boş mekanın ortasından yürüyerek geçer ve bir başkası da bu adamı gözleriyle izler, işte tiyatro etkinliği için bize gereken şey bu kadardır.” 
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/oyunu-oynamadan-oynamak" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/c.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/c.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/faruk-duman-anlatisinda-gecmise-donus">Faruk Duman Anlatısında Geçmişe Dönüş</a>
+              </h1>
+              <h2><a href="/yazar/oguz-nedirli">Oğuz Nedirli</a></h2>
+              
+              Geçmiş kelimesi geçmişten geliyor gibidir; muğlaktır. Şimdiye ait değildir. Şimdinin berraklığının içinde sırıtır. Şimdinin sürekli ötekisidir. Şimdinin bilincindeyizdir çünkü şimdi bizimledir. Bu noktada geçmişin kendine ait bir bilince sahip olduğunu varsayabiliriz. Kendisine sahiptir. Bize ait olduğunu düşünsek dahi, o kendisini bize açmadığı müddetçe kendimize ait sandığımız hatıralarımızı hatırlamamız imkânsızdır.
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/faruk-duman-anlatisinda-gecmise-donus" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/c.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/c.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/faruk-duman-kirki-ve-tarih-yaziciligi">Faruk Duman&#39;ın Kırk&#39;ı ve Tarih Yazıcılığı</a>
+              </h1>
+              <h2><a href="/yazar/yusuf-turhalli">Yusuf Turhallı</a></h2>
+              
+              İsimleri, mekânları, zamanları değişse de zulmedenler ve zulme uğrayanlar değişmiyor. Tarih, her ne kadar galiplerin dilinden yazılmış olsa da buna alternatif olabilecek edebiyatı çok nitelikli bir biçimde kullanıyor. Ve bunu, yıllar boyunca düşülen hata ve klişelerden uzak durarak yapıyor.
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/faruk-duman-kirki-ve-tarih-yaziciligi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/c.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/c.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/kent-bireyciligi-ve-mahremiyetin-despotlugu-hanekenin-yedinci-kita-filmi">Kent Bireyciliği ve Mahremiyetin Despotluğu: Haneke’nin Yedinci Kıta Filmi</a>
+              </h1>
+              <h2><a href="/yazar/berna-sitera-degirmen">Berna Sitera Değirmen</a></h2>
+              
+              "Özellikle 19. yy Avrupa şehirlerinde etkisini arttıran kent bireyciliği günümüzde giderek daha etkili bir şekilde yaşanmaya devam etmektedir. Haneke’nin Yedinci Kıta filmi bu kent bireyciliğine bir itiraz, karamsar bir açık mektup gibi okunabilir."
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/kent-bireyciligi-ve-mahremiyetin-despotlugu-hanekenin-yedinci-kita-filmi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/c.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/c.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/okura-islik-calmayi-ogreten-yazar">Okura Islık Çalmayı Öğreten Yazar: Faruk Duman</a>
+              </h1>
+              <h2><a href="/yazar/sengul-can">Şengül Can</a></h2>
+              
+              Öykülerinde masalsı, fantastik atmosferi günlük olanın sıradanlığını, aynılığını bozmak için kullanır. Yazar öykülerinde bakış açısını ters yüz eder. Kimi zaman anlatıcı, kimi zaman kahraman. Olayın içindeki anlatıcı birden uzaklaşır. Kendisine karşıdan bakar.
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/okura-islik-calmayi-ogreten-yazar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/c.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/c.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/ve-ceren-huzunle-kaybolur">Ve Ceren, Hüzünle Kaybolur...</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Ceren’e gösterilen şiddet altında istenmeyen bir evlat olması ve Ceren’in (belki de kendini teselli etmek için) anlattığı karanlık korkusu yatıyor görünse de bir kadın olarak doğudan kurban, av, et olması yatıyor.
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/ve-ceren-huzunle-kaybolur" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/c.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/c.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/beyaz-yakalinin-sessiz-cigligi-ofis-dili">Beyaz Yakalının Sessiz Çığlığı: Ofis Dili</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Şunu kabul edelim: Mısır’daki halanızdan yüklü bir miras kalmadıysa veya bir fabrikatörün çocuğu değilseniz ve kendi işinizi kurmaya niyetiniz yoksa gelebileceğiniz yer en fazla bir şirketin yöneticiliğidir ki orada da tutunmak için muhtemelen oyunu kuralına göre oynamak durumunda kalacaksınız. 
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/beyaz-yakalinin-sessiz-cigligi-ofis-dili" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/tiyatroda-cokkulturluluk-cokkulturculuk-polikulturculuk">Tiyatroda Çokkültürlülük, Çokkültürcülük, Polikültürcülük</a>
+              </h1>
+              <h2><a href="/yazar/firat-gullu">Fırat Güllü</a></h2>
+              
+              Modernite öncesi Osmanlı gösteri sanatları tüm bu değerlendirmeler ışığında ele alındığında çokkültürlü bir nitelik taşıdığı açıkça görülür. Geleneksel olarak Karagöz, meddah ve orta oyunu dediğimiz türlerin gerek üreticileri, gerekse izleyicileri, çok farklı kültürlerden gelmekle beraber uzun yıllar beraber yaşamanın da getirdiği bir alışkanlıkla ortak estetik değerlerden zevk alan çokkültürülü Osmanlı toplumunun üyeleriydi. Araştırmacılar tarafından yayınlanan listelerde Ermeni, Rum ya da Musevi icracıların adına sıkça rastlanır ve bu icracılar sadece mensubu oldukları dini cemaatin değil, tüm toplumun takdirini kazanmışlardır.
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/tiyatroda-cokkulturluluk-cokkulturculuk-polikulturculuk" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/radyo-tiyatrosu">Radyo Tiyatrosu</a>
+              </h1>
+              <h2><a href="/yazar/ozlem-san">Özlem Şan</a>, <a href="/yazar/basak-k-ertanoglu">Başak K. Ertanoğlu</a></h2>
+              
+              
+	Radyo Tiyatrosu Üzerine Birkaç Söz… 
+	“Görülmelik, seyirlik bir oyun değil, bir işitme, duyma oyunu”&nbsp;diyordu Behçet Necatigil radyo oyunlarına. 1975’te Dünya Radyo Oyun Yazarlığının 50. yılı için yazdığı metinde, radyo oyunlarının o zamanki durumunun değerlendirmesini yapıyor, Türk yazarların basılı radyo oyunlarının dokuzu onu geçmediğini dile getiriyordu. Şimdilerde belki bir kaç kitap daha ekleyebilsek de, durum hala aynı vehametinde.&nbsp;
+
+	Şöyle bir araştırıldığında daha iyi görülecektir ki, radyo oyunları üzerine hazırlanmış araştırma ya da inceleme bulmak da hayli güç. Nursel Duruel, 2004 Mart ayının Kitaplık dergisindeki yazısına şöyle bir ad vermiş: “Çok sevilen az bilinen bir edebi tür: radyo oyunu ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/radyo-tiyatrosu" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/uc-kisa-radyo-oyunu">Üç Kısa Radyo Oyunu</a>
+              </h1>
+              <h2><a href="/yazar/basak-k-ertanoglu">Başak K. Ertanoğlu</a></h2>
+              
+              
+	KRAL ÜBÜ VE ROMEO VE JULIET OYUNLARINDAN HAREKETLE...
+
+	ÜBÜ BABA: Ey sevgili dostlarım, komplo planının kararlaştırılacağı o büyük an geldi. Siz kendi fikrinizi söyleyin. Önce ben benimkini söyleyeceğim, izin verirseniz. Şimdi, ben çok basitçe yemeğine arsenik tıkarak Kral'ı zehirlemekten yanayım. Otlandığı anda ölecektir; ve ben de kral olurum ...
+
+	JULİET: Kim yardım etti sana bu planı yapmak için?
+
+	ÜBÜ BABA: Ne oldu hoşunuza gitmedi mi?
+
+	JULİET: Nasıl geldin buraya söyle, hem niye?
+
+	ÜBÜ BABA: E söyledim ya.
+
+	JULİET: Kim olduğunu düşün. Mezar olur sana bu yer, bu fikrini sezerlerse.
+
+	ÜBÜ BABA: Ama ben sizin için kendimi tehlikeye atmayı kabul ediyorum ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/uc-kisa-radyo-oyunu" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/Samuel_van_Hoogstraten-1678_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/Samuel_van_Hoogstraten-1678_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/komedi-ve-komedinin-sahnede-temsili">Komedi ve Komedinin Sahnede Temsili</a>
+              </h1>
+              <h2><a href="/yazar/tulay-akyol">Tülay Akyol</a></h2>
+              
+              Günümüz komedisine gelmeden yapılanlara bir göz gezdirirsek gölge oyunlarından Deve Kuşu Kabare’ye kadar, Haldun Taner’in sistem eleştirisi yaptığı oyunlarından Aziz Nesin’in güldürülerine kadar bu yelpazede komedinin rahatlatma, eğlendirme dışında da pek çok yönünü keşfederiz. Şimdiye geldiğimizde ise durum biraz da olsa farklılaşmıştır. 
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/komedi-ve-komedinin-sahnede-temsili" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/2000-sonrasi-fanzinler-uzerine-kucuk-bir-degerlendirme-ve-iki-fanzin">2000 Sonrası Fanzinler Üzerine Küçük Bir Değerlendirme ve İki Fanzin</a>
+              </h1>
+              <h2><a href="/yazar/ramazan-parladar">Ramazan Parladar</a></h2>
+              
+              
+	Kavram Karmaşa dergisinin Eylül 2001 tarihli 20. sayısındaki “Yeraltı Edebiyatı” dosyası için bir yazı yazmıştım. O yazıda şiir yayıncılığı açısından fanzinlerin özgürleştirici etkilerinden söz etmiştim. O yıllarda fanzinler daha çok müzik (rock, punk, heavy metal v.s.) ve anarşizm odaklı yayınlar olarak çıkıyordu. Edebiyat/şiir odaklı fanzinler bunlara göre hem yaygın değildi hem de daha çok gençlerin parasal ve yasal yükümlülüklerden kurtulmanın bir aracı olarak tercih ettikleri bir yayın türüydü. Bu durum da fanzinlerin kendi aralarında bir dolaşım ağı oluşturmalarına, görünürlüklerinin bu alanla sınırlı kalmasına, merkez diye nitelendirilen edebiyat çevrelerince görülmemelerine ya da dikkate alınmamalarına yol açıyordu. Bu yüzden, yukarıda ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/2000-sonrasi-fanzinler-uzerine-kucuk-bir-degerlendirme-ve-iki-fanzin" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/gerceksanattiyatro">Gerçek/Sanat/Tiyatro</a>
+              </h1>
+              <h2><a href="/yazar/ali-kirkar">Ali Kırkar</a></h2>
+              
+              Dönem dönem tiyatro pratiğine yüklenen işlev değişse de bu “insanın hikayesini kurmaca bir gerçeklikle görünür kılma” amacı değişmemiştir. Çünkü bu çok temel bir ihtiyaçtır. 
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/gerceksanattiyatro" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_4_final_son_96_ppi_v2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/tiyatro-beyaz-yakalilar-icin-neden-onemli">Tiyatro Beyaz Yakalılar İçin Neden Önemli?</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Kapitalizm tüketmemizi ister, sanat üreticidir. Tiyatro için de tüketimden kaçamıyoruz elbet, bilet almak durumundayız ama oyuncular da bizimle aynı çarkta olduğu için geçinmek ve özel bir tiyatroysa mekan kirası vermek, fatura ödemek zorundadır.  “Kapitalizm köleyi özgürlüğüne kavuşturur ve tüketici haline getirir, ama sınırsız tüketimin ucunda tüketicinin kendi kendini tüketmesi vardır.” (Seçme İkilemi, s. 59) Kapitalizm çarkından kurtulamasak da onun kıymet vermediği çünkü kıymet verirse kendinin gözden düşeceği alanlara yatırabiliriz gelirimizin bir kısmını. Burada sadece tiyatrodan nasibimizi almakla kalmaz, iyi bir dayanışma da yaratmış oluruz. 
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/tiyatro-beyaz-yakalilar-icin-neden-onemli" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/tarama0002_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/tarama0002_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/beyaz-yuzlu-insanlar-pantomim-sanati">Beyaz Yüzlü İnsanlar; Pantomim Sanatı</a>
+              </h1>
+              <h2><a href="/yazar/pinar-alev">Pınar Alev</a></h2>
+              
+              Pantomim antik çağla birlikte insan hayatına girmiş bir kavramdır. İnsanlar ritüellerde, avları veya hayatı etkileyen durumları anlatmak için bu sanatı adı pantomim olmadan kullanmışlardır. Medeniyetle birlikte bu sessiz sanat mim ismini almış ve gelişimine devam etmiştir. 
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/beyaz-yuzlu-insanlar-pantomim-sanati" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/zoe-bios-bio-siyaset-ve-bir-film-ornegi-azinlik-raporu">Zoe-Bios, Bio-Siyaset Ve Bir Film Örneği:Azınlık Raporu</a>
+              </h1>
+              <h2><a href="/yazar/berna-sitera-degirmen">Berna Sitera Değirmen</a></h2>
+              
+              Azınlık Raporu filmi modern toplum ve modern iktidar yapılanmasının eleştirisini içeren güçlü bir filmdir. Filmde, özellikle 17. yüzyıllardan başlayarak günümüze uzanan siyasal alanın giderek biyo-siyasete dönüşmesi olgusunun çok daha belirgin bir şekilde yaşandığı yakın bir gelecek kurgulanmıştır.
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/zoe-bios-bio-siyaset-ve-bir-film-ornegi-azinlik-raporu" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/bir-felaket-romani-resul"> Bir Felaket Romanı: Resul</a>
+              </h1>
+              <h2><a href="/yazar/yusuf-turhalli">Yusuf Turhallı</a></h2>
+              
+              Resul, kendi felaketinin tanığı olmaya çalışırken dilin sınırlarını kendinde denemek zorunda kalan bir kitap.
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/bir-felaket-romani-resul" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/isminizi-nasil-alirdiniz">İsminizi Nasıl Alırdınız?</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Derrida’ya göre, kişi kendi varlığını kendi başına onayamaz. Ona sınırlarını açık edecek bir yere, onun varlığını yansıtacak bir ötekiye veya kendisine başkası tarafından verilen bir isme gereksinim duyar. İşte Gecedegiden’in isim, aslında varoluşuna onay arayışı…
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/isminizi-nasil-alirdiniz" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/huseyin-kiran-siiri-yonu-degistirilmis-su">Hüseyin Kıran&#39;ın Şiiri: Yönü Değiştirilmiş Su</a>
+              </h1>
+              <h2><a href="/yazar/ramazan-parladar">Ramazan Parladar</a></h2>
+              
+              Kıran’ın kentin, kentin dayattığı hayatın karşısında korunağının, belki onu yeniden sağaltanın, aldığı yaraları iyileştirenin doğayla, ilkelle kurduğu ilişki olduğunu söylemiştim. Kıran’ın bu ilişkisine aracılık eden bir şey vardır; sözcükler. Kıran’ın sözcüklerle, şiir halinde gelen sözcüklerle ilişkisi kimi zaman şamanik bir özellik gösterir. Onu doğayla bu iyileştirici ilişkiye götürendir şiir. Daha da ötesi, tıpkı bir şaman gibi doğanın içerisinde, bir şaman’ın benliğini, varlığını yok ederek bir duanın, yani sözün kendisine dönüşmesi gibi, Kıran da sözcük olarak var olur kentin kötülüğünün karşısında.
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/huseyin-kiran-siiri-yonu-degistirilmis-su" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/bu-yazi-satiliktir">Bu Yazı Satılıktır...</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Her şey satın alınabilir. Aşk, sanat, yerküre, siz, ben…
+Her şey bir üründür.
+Her şeyin mükemmel olduğunu hayal etmenizi sağlıyorum.
+Her şey geçici.
+Güzelleştirmiyorum, mahvediyorum.
+Yarın ne isteyeceğinize ben karar veririm.
+Yeniliği ben yaratırım.
+Arzularınız sizin değildir, size benimkileri dayatırım.
+İnsan gözü hiç bu kadar saldırıya uğramamıştı.
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/bu-yazi-satiliktir" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/huseyin-kiran-romanlarina-bilincdisindan-bir-bakis">Hüseyin Kıran’ın Romanlarına Bilinçdışından Bir Bakış</a>
+              </h1>
+              <h2><a href="/yazar/sengul-can">Şengül Can</a></h2>
+              
+              Hüseyin Kıran insanı kendi gerçekliğiyle yüzleşmeye çağırıyor. Buz dağının görünmeyen kısmı. Rüyaların karanlık dehlizleri, dudaklardan dökülen sözcükler, bazen gözden kopan bir bakış. Evet insanlık, nerede kalmıştık? Değiştiriyorum. Daha doğrusu nereden başlamalı? Suç ve ceza, günah, ölüm, aile, toplum, cinsellik, para… Peki bu içimizdeki eksiklik duygusu?  Cevapsız bütün sorulara cevap verince bu duygu yani, eksiklik duygusu yok olacak mı ya da azalacak mı? 
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/huseyin-kiran-romanlarina-bilincdisindan-bir-bakis" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/ben-kimim">Ben Kimim?</a>
+              </h1>
+              <h2><a href="/yazar/ozlem-san">Özlem Şan</a></h2>
+              
+              Direnmenin, insan olmanın sınırlarını, “kendilik” kavramlarını derinlemesine inceleyen bu romanlar, insanın iradesiyle ve kendiyle olan savaşını sahneleyen, insan olmak üzerine hayli düşündüren yapıtlar. Özellikle de “Ben kimim?” sorusunu okuruna sordurtan yapıtlar... 
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/ben-kimim" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/kamburun-akli">Kambur&#39;un Aklı</a>
+              </h1>
+              <h2><a href="/yazar/ozlem-san">Özlem Şan</a></h2>
+              
+              Tüm kitap boyunca sorular sorduğu, kızdığı, azarladığı, alay ettiği okuyucuyu, aynı zamanda diğer insanları, diğer yaşamları biraz alayla söylemiş dahi olsa merak ettiğini belirten bir cümledir bu. Kambur'un bu merakı doğaldır. Çünkü yaşama dâhil olmayan, onun çok dışında bir karakter. Hiçbir anısının olmadığını düşünecek kadar yaşamamış bir karakter.
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/kamburun-akli" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/yoklugun-diliyle-hemhal-olmak">Yokluğun Diliyle Hemhal Olmak</a>
+              </h1>
+              <h2><a href="/yazar/sengul-can">Şengül Can</a></h2>
+              
+              Gürbüz gelenekten beslenen bir ırmak gibidir. Evdeki kudüm ve bendirin varlığı dahi buna işarettir. Zamanı farklı algılamak ona dokunmak ister ama yapamaz. Bir medeniyetin son demleri yaşanır evlerde. Kudüm ve bendirin evden gitmesi babanın otoritesinin sarsılmasıdır. Aslında geç kalınmış bir yüzleşmedir. Evin salonunun ortasında kökleşmiş bir kabuk vardır. Ve hiç kimse bu kabuğa giremez. Ama o kabuğu kıramaz da. Şeklini de alamaz. Sadece bu kabukla yaşayıp gider. Yaşanıp gidilen hayatları anlatır öyküler.
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/yoklugun-diliyle-hemhal-olmak" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/muntehir-olumune-reddiye-bir-metin-akbas-kitabi">Müntehir&#39;in Ölümüne Reddiye: Bir Metin Akbaş Kitabı</a>
+              </h1>
+              <h2><a href="/yazar/ramazan-parladar">Ramazan Parladar</a></h2>
+              
+              Belki yadırgatıcı gelebilir ama ben intiharı “sahicilik” kavramıyla birlikte düşünüyorum. İntiharın esriten cazibesine gövdesini yaslayabilen olabileceği gibi, iç dünyasında bastırılamayacak kertede dönenip duran, hiçbir gerekçeye indirgenemeyecek, haklılığı kendinden menkul intiharlar da olabilir. Onu haklı kılan, o yok edilemeyen şeydir. O şeyin eleştiri konusu haline getirilmesi saçmadır.
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/muntehir-olumune-reddiye-bir-metin-akbas-kitabi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/modern-bir-hikaye-anlaticisi-sule-gurbuz">Modern Bir Hikaye Anlatıcısı: Şule Gürbüz</a>
+              </h1>
+              <h2><a href="/yazar/yusuf-turhalli">Yusuf Turhallı</a></h2>
+              
+              Şule Gürbüz’ün metinlerindeki karakterler günlük hayatımızda karşımıza devamlı çıkabilecek kişilerdir. Örneğin, bir müzik hocası, ya da evleneceği adamın nasıl olması gerektiğini dileyen bir kız çocuğu ya da görücü usulüyle evlenmiş bir adam ya da bir iş adamı… Kısacası her şekliyle insan… İkiyüzlülüğüyle, naifliğiyle, iyiliğiyle, kötülüğüyle… Bunu yaparken de ironiyi aktif olarak kullanır Gürbüz. Çünkü insanın bu hallerini didaktik bir anlatıya kaçmadan verebilmenin belki de en iyi biçimi olan ironide bütün zıtlıkları bir arada bulundurabilmek mümkündür.
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/modern-bir-hikaye-anlaticisi-sule-gurbuz" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/omurluk-zamanin-izinde">Ömürlük Zamanın İzinde</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Bellek zamanın bütün olarak anlaşılmasına yardım edecektir ama karakterler zamanı dışsal, parçalı algıladıkları için bellekten çekip aldıkları anlar, anılar bölük pörçük kalır. O yüzden karakterler hep sürüncemede, boşlukta, sıkıntı içindedir ve ömürlerini tamamlayıp bu dünyadan göçüp gitmeyi beklerler. Dolayısıyla özgürlükleri en kısıtlı halindedir, intihar olasılık dâhilinde değildir ve kendi hayatlarında, karakterlerinde değişiklik yapamayacak kadar edilgenlerdir.
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/omurluk-zamanin-izinde" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/1236437_565837776813872_526785068_n.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/kopek-disi-ve-cekirdek-aile-fasizmi">Köpek Dişi Ve Çekirdek Aile Faşizmi</a>
+              </h1>
+              <h2><a href="/yazar/tugce-aytes">Tuğçe Ayteş</a></h2>
+              
+              Köpek Dişi, çekirdek aile faşizmi hakkında uç bir örnek diyemeyiz. Foucault’nun “mikroiktidar” dediği bu otorite filmdeki gibi, Türkiye’de de genelde babadadır. Ülkemizde açığa çıksa da çıkmasa da, adalet yerini bulsa da bulmasa da böyle yaşamlara çok sık rastlanır. Hepimizin her gün okuduğu, duyduğu, gördüğü, belki de yaşadığı olaylar aslında Köpek Dişi’ni ütopik bir yapımdan sembolik-gerçekçi bir kesite yaklaştırır.
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/kopek-disi-ve-cekirdek-aile-fasizmi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+</section>
+
+      <div class="clearfix"></div>
+      <footer class="clearfix">
+        
+        <ul class="primary-menu pull-left">
+          
+<!-- <li><a href="/yazar/">Yazarlar</a></li>-->
+<li><a href="http://cercisanat.blogspot.com.tr/">BLOG</a></li>
+<li><a href="/manifesto/">MANİFESTO</a></li>
+<li><a href="/ekip/">EKİP</a></li>
+<li><a href="/site-kurallari/">SİTE KURALLARI</a></li>
+<li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>
+<li><a href="/iletisim/">İLETİŞİM</a></li>
+
+        </ul>
+        
+        <div class="copyright pull-right">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="/static/images/cc.png" /></a>
+        </div>
+      </footer>
+    </div>
+    
+  </body>
+</html>

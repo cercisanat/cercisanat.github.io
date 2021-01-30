@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="tr-TR" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <title>
+Düş Perisi | Çerçi-Sayı 2
+</title>
+    
+  
+    
+
+<meta charset="utf8" />
+<meta http-equiv="Content-Language" content="tr" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic|Ubuntu+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" href="/static/favicon.ico" />
+<link rel="stylesheet" href="/static/css/template.css" type="text/css"/>
+<link rel="stylesheet" href="/static/css/animations.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.ie.css" type="text/css"/>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/static/css/ie8.css" type="text/css"/>
+<![endif]-->
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/static/ajax_forms/js/jquery-ajax-validation.js"></script>
+<script type="text/javascript" src="/static/photobox/jquery.photobox.js"></script>
+<script type="text/javascript" src="/static/js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="/static/js/responsive/main.js"></script>
+
+
+
+    
+  
+  <link rel="stylesheet" href="/static/css/issuecontent.css" type="text/css"/>
+  <link rel="stylesheet" href="/static/css/toc.css" type="text/css"/>
+  <link rel="stylesheet" href="/static/css/author_component.css" type="text/css"/>
+  
+  
+  <script type="text/javascript" src="/static/js/responsive/issuecontent.js"></script>
+  <script type="text/javascript">
+  var addthis_config = {
+        ui_language: "tr"
+        //"data_track_addressbar":true 
+  } 
+  </script>
+   
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5197ecf45f1cbd3d"></script>
+  <!-- add these meta tags for facebook -->
+  <meta property="og:url" content="http://localhost:8000/dergi/2/dus-perisi" />
+  <meta property="og:title" content="'Düş Perisi' &lt;a href=&quot;/yazar/emine-aydogdu&quot;&gt;Emine Aydoğdu&lt;/a&gt; | Çerçi Sanat - Sayı 2" />
+  <meta property="og:description" content="Tek odalı, tek pencereli kapıcı dairesinde teyzesiyle birlikte yaşıyordu. Teyzesi, bütün bir haftayı çalışarak geçirirdi. Gün boyu koşuşturması, bedenini o kadar yorgun düşürürdü ki, akşam yemeğinin ardından hem de sızarcasına uyuyuverirdi. Teyzesinin her akşam böyle erkenden uykuya dalışı, yalnızlığını daha da çoğaltırdı. Bütün zamanını, onun eve gelmesini bekleyerek geçirdiğinden, içten ..." />
+  
+  
+    
+  <meta property="og:image" content="http://localhost:8000/media/images/illustrations/dus_perisi.jpg" />
+    
+  
+  
+  <meta property="og:site_name" content="Çerçi Sanat"/>
+
+  </head>
+  <body>
+    
+      <header class="clearfix">
+        
+        
+        
+        <nav role="navigation" class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse"
+                data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand">
+              <img class="rotate" src="/static/images/cerci_logo2_white.png" style="height:30px" />
+              </a>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+              <ul class="auto-active nav navbar-nav navbar-left"> 
+                <li><a href="/manifesto/">MANİFESTO</a></li>
+                <li><a href="/ekip/">EKİP</a></li>  
+                <li><a href="/yazar/">ÇERÇİLER</a></li>
+                <li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>  
+                <li><a href="/blog/">BLOG</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      title="Abone ol"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-book"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <div class="subscription-form">
+                      <h3>E-posta aboneliği</h3>
+                      <form action="/newsletters/" method="post" class="ajax-form subscribe-form">
+                      <p>
+                        Abone olun ve yeni sayımız çıktığı anda haberiniz olsun.<br/>
+                        (Abonelikten istediğiniz zaman ayrılabilirsiniz.)
+                      </p>
+                      <input type='hidden' name='csrfmiddlewaretoken' value='oTZmdamlmaKaf6wjiQdXdwdhdttQunDD' />
+                      
+
+
+
+
+    
+<div class="form-group id_name ">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_name" maxlength="255" name="name" placeholder="İsim" type="text" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+    
+<div class="form-group id_email  required">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_email" maxlength="255" name="email" placeholder="Email" type="email" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+
+
+                      <button type="submit" class="btn">Abone ol</button>
+                      </form>
+                      <div class="clearfix"></div>
+                      <div class="subscribe-success">
+                        E-posta aboneliğine üyeliğiniz başarıyla gerçekleşti.<br/>
+                        Bir kayıt daha yapmak için <a href="/newsletters/" class="another-subscription">tıklayın</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-search"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <form action="/arama" class="navbar-form" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="q" placeholder="Arama" />
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              
+              <ul class="nav navbar-nav navbar-right social">
+                <li>
+                  <a href="https://www.facebook.com/CerciSanat" target="_blank"
+                    title="Facebook'ta Çerçi Sanat">
+                      <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/cercisanat" target="_blank"
+                    title="Twitter'da Çerçi Sanat">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://plus.google.com/107839000424667573646/posts"
+                    target="_blank" title="Google+'ta Çerçi Sanat">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://pinterest.com/cercisanat/" target="_blank"
+                    title="Pinterest'te Çerçi Sanat">
+                    <i class="fa fa-pinterest-p"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/cercisanat/" target="_blank"
+                    title="Instagram'da Çerçi Sanat">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/cercisanat" target="_blank"
+                    title="Github'da Çerçi Sanat">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+
+              </ul>
+              
+            </div>
+          </div>
+        </nav> 
+        
+        <div class="clearfix"></div>
+      </header>
+    <div class="container">
+      
+      
+
+
+      
+<section class="issuecontent clearfix">
+    
+      
+        
+
+
+<div class="toc-container clearfix">
+  
+  <a href="/dergi/2/sekersiz"
+    class="icona prev pull-left tooltipped"
+    data-toggle="tooltip" data-placement="bottom" data-container="body"
+    title="Önceki"><i class="fa fa-arrow-left"></i>
+  </a>
+  
+  <a href="/" class="icona home-link tooltipped rotate"
+    data-toggle="tooltip" data-placement="bottom" data-container="body"
+    title="Çerçi Sanat Anasayfa"></a>
+  <a href="#" class="icona toc-starter tooltipped" data-toggle="tooltip"
+    data-placement="bottom" data-container="body" title="İçindekiler">
+    <i class="fa fa-th-list"></i></a>
+  
+    <a href="/dergi/2/ag" class="icona next pull-right tooltipped"
+      data-toggle="tooltip" data-placement="bottom" data-container="body"
+      title="Sonraki"><i class="fa fa-arrow-right"></i></a>
+   
+  <a href="#" class="font-plus icona pull-right" data-toggle="tooltip"
+    data-placement="bottom" data-container="body" title="Font +">
+    <i class="fa fa-font"></i>
+  </a> 
+  <a href="#" class="font-minus icona small pull-right" data-toggle="tooltip"
+    data-placement="bottom" data-container="body" title="Font -">
+    <i class="fa fa-font"></i>
+  </a>
+  <nav class="toc">
+    <a class="issue_link" href="/dergi/2" title="Dergi sayfasına geri dön">
+        <img class="cover pull-left" src="/media/images/issue/thumbnails/cercisanat_2_sayi_kapak_v4.jpg.210x297_q85.jpg" alt="Çerçi Sayı 2, December 2013" />
+    </a>
+    <div class="toc-contents-wrapper">
+      <div class="toc-contents">
+        <ol>
+          <li>
+          <strong><a href="/dergi/2">İçindekiler</a></strong><br/>
+          <em>editörden</em>
+          </li>
+
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/huseyin-kiran-ile-soylesi">Hüseyin Kıran ile söyleşi</a></strong><br/>
+            <em>Tuğçe Ayteş, Şengül Can, Özlem Şan, Yusuf Turhallı</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/huseyin-kiran-romanlarina-bilincdisindan-bir-bakis">Hüseyin Kıran’ın Romanlarına Bilinçdışından Bir Bakış</a></strong><br/>
+            <em>Şengül Can</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/bir-felaket-romani-resul"> Bir Felaket Romanı: Resul</a></strong><br/>
+            <em>Yusuf Turhallı</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/ben-kimim">Ben Kimim?</a></strong><br/>
+            <em>Özlem Şan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/isminizi-nasil-alirdiniz">İsminizi Nasıl Alırdınız?</a></strong><br/>
+            <em>Tuğçe Ayteş</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/huseyin-kiran-siiri-yonu-degistirilmis-su">Hüseyin Kıran&#39;ın Şiiri: Yönü Değiştirilmiş Su</a></strong><br/>
+            <em>Ramazan Parladar</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/bu-yazi-satiliktir">Bu Yazı Satılıktır...</a></strong><br/>
+            <em>Tuğçe Ayteş</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/zoe-bios-bio-siyaset-ve-bir-film-ornegi-azinlik-raporu">Zoe-Bios, Bio-Siyaset Ve Bir Film Örneği:Azınlık Raporu</a></strong><br/>
+            <em>Berna Sitera Değirmen</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/duru-zamanlar">Duru Zamanlar</a></strong><br/>
+            <em>Bilge Demircan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/masumlar-ve-kuzey-uzerine-yazariyla-soylesi">‘Masumlar’ ve ‘Kuzey’ Üzerine Yazarıyla Söyleşi</a></strong><br/>
+            <em>Erkan Özaydın</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/bu-kitabi-okuyabilir-misin">Bu kitabı okuyabilir misin? </a></strong><br/>
+            <em>Şengül Can</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/mavi-en-tutucu-renktir">Mavi En Tutucu Renktir</a></strong><br/>
+            <em>Gerçek İnan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/briken-aliu-ile-yolculugu-uzerine">Briken Aliu ile Yolculuğu Üzerine</a></strong><br/>
+            <em>Bilge Demircan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/cihan-murtezaoglu-ile-sen-yagmur-dok-projesi">Cihan Mürtezaoğlu ile &quot;Sen Yağmur Dök&quot; Projesi</a></strong><br/>
+            <em>Ezgi Gizem Gülümser</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/uykusu-bolunenler">Q, W, X</a></strong><br/>
+            <em>Yusuf Turhallı</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/goz-hakki">Göz Hakkı</a></strong><br/>
+            <em>Özlem Şan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/sekersiz">Şekersiz</a></strong><br/>
+            <em>Tülay Akyol</em>
+          </li>
+          
+        
+        
+        
+          
+          <li class="active">
+            <strong>Düş Perisi</strong><br/>
+            <em>Emine Aydoğdu</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/ag">Ağ</a></strong><br/>
+            <em>Duygu Aydoğdu</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/esys">ESYS*</a></strong><br/>
+            <em>Esra Solmaz</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/zeytindali">Zeytin Dalı</a></strong><br/>
+            <em>Özge Can Akın</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/icimdeki-bayramogullarini-kim-yikti">İçimdeki Bayramoğullarını Kim Yıktı? </a></strong><br/>
+            <em>Onur Selamet</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/kumrunun-olumu">Kumrunun Ölümü</a></strong><br/>
+            <em>Ayşe Nalan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/asagi-bak-tanrim">aşağı bak tanrım!</a></strong><br/>
+            <em>Ayfer Feriha Nujen</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/yasa-varol-harp">Yaşa, Varol Harp</a></strong><br/>
+            <em>Can Mustafa Özdemir</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/bir-yaz-gunu-revizyonu">Bir Yaz Günü Revizyonu </a></strong><br/>
+            <em>Ümit Aydın</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/kislik">Kışlık</a></strong><br/>
+            <em>Akın Art</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/2/kilama-heviye-umudun-sarkisi">Kilama Hêviye (Umudun Şarkısı)</a></strong><br/>
+            <em>Cigerxwîn</em>
+          </li>
+          
+        
+        
+        </ol>
+      </div>
+    </div>
+  </nav>
+</div>
+
+      
+      
+      
+        
+
+
+
+
+
+<hgroup class="main-hgroup">
+    <h1 class="title" id="content-43">Düş Perisi
+    
+    </h1>
+    <cite class="author"><a href="/yazar/emine-aydogdu">Emine Aydoğdu</a></cite>
+</hgroup>
+
+
+
+<figure class="image-container pull-left span3 ">
+  <a class="galleryitem" href="/media/images/illustrations/thumbnails/dus_perisi.jpg.1200x1200_q85.jpg" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Daha büyük boyutlusunu görmek ve yakınlaştırabilmek için tıklayın.">
+  <img class="content-image" src="/media/images/illustrations/thumbnails/dus_perisi.jpg.400x400_q85.jpg" alt="düş perisi" />
+  </a>
+  <figcaption>
+  <h1>düş perisi</h1>
+  <cite class="image-authors"><a href="/yazar/mehmet-turaylar">AbuyofolloM</a></cite><br/>
+  
+  </figcaption>
+</figure>
+
+<div class="body ">
+  <div class="content">
+      
+      <p>
+	Tek odalı, tek pencereli kapıcı dairesinde teyzesiyle birlikte yaşıyordu. Teyzesi, bütün bir haftayı çalışarak geçirirdi. Gün boyu koşuşturması, bedenini o kadar yorgun düşürürdü ki, akşam yemeğinin ardından hem de sızarcasına uyuyuverirdi. Teyzesinin her akşam böyle erkenden uykuya dalışı, yalnızlığını daha da çoğaltırdı. Bütün zamanını, onun eve gelmesini bekleyerek geçirdiğinden, içten içe kırılırdı. Bu uzun beklemeler, dağ gibi büyüyen yalnızlığıyla baş etmenin yolunu neyse ki kısa zamanda öğretmişti.<br />
+	Hayaller kurarak hayatı anlamaya çalışıyordu. Sararıp toprağa düşen yapraklardan kaleler yapıp, savunmasını kuşlara bırakıyordu. Kuşlar, kalenin duvarlarına konan sinek ve böcekleri öldürmeye, bahçedeki rengârenk çiçekleri, teyzesinin teneke kutuda büyütmeye çalıştığı minicik yeşil biberleri, gagalamaya başlayınca, kurgulayıp düş sahnesinde canlandırdığı bütün hayalleri ivecenlikle arka arkaya siliyordu.<br />
+	Toprağa dökülen biber ve çiçek tohumlarını, dayısının asker yeşili çantasında bulduğu tahta sapanla, gökyüzüne doğru savurup, ağaç dallarında bekleşen kuşları uçuruyordu. Dayısını hiç tanımamıştı. Siyah-beyaz fotoğrafı, neredeyse tavana yapışık bir şekilde paslı bir çiviyle duvara asılmıştı. Ne zaman başını kaldırıp fotoğrafa baksa, dayısını gülümserken yakalıyordu. Kırmızı balonuna döke saça doldurduğu suyu, sarı yapraklardan ördüğü kalelerin üzerine püskürtürken, kalelerle birlikte sanki dayısının gülümsemesini de yok ediyordu.<br />
+	Yok edemediği tek şey, gün be gün artan ve hiçbir şeyin dindiremediği özlemdi. Annesine duyduğu özlem. Onu çok seyrek görüyordu. Bu tek odalı, tek pencereli eve ara sıra uğrardı. Her seferinde çok uzun yollardan geldiğini uzun uzun anlatırdı. Nereye gittiğini ne yaptığını hiçbir zaman öğrenemedi. Peş peşe sorduğu sorulardan, teyzesi bıkıp usansa da mezara kadar götüreceğine söz verdiği sırrı hiçbir zaman açıklamadı. Onun bu suskunluğu karşısında kimi zaman çılgına dönse de yine de umutsuz öfkesinin aldatıcı rüzgârına kapılmıyordu. Neden hep susuyordu?... Neden susup susup uzaklara bakıyordu?... Annesi gibi uzun tümceler kurup, yalan da olsa niçin bir şeyler anlatmıyordu?...<br />
+	Annesi, bütün gelişlerinde, fazla değil, birkaç gün kaldıktan sonra gitmeye hazırlanırdı. Giderken de: “Son kez gidiyorum. Bu sefer kesin geri döneceğim. Seni bir daha yalnız bırakmayacağım kuzucuğum!” Diyerek gider ve uzun bir süre ortalarda görünmezdi. O hüzünlü gidişin ardından, tahta masanın hemen yanında asılı duran ve rutubetten yaprakları nemlenmiş maarif takviminin o güne ait yaprağını koparır, oyuncaklarının arasında özenle sakladığı küçük kutunun içine koyardı. Bu sancılı gidiş-geliş, her defasında bir şeyleri eksiltiyordu. Zamanın bilinmeze doğru uzaması ise, bedeninde ve ruhunda onulmaz yaralar açıyordu. Yine de annesinden bir parça olarak gördüğü, oyuncakların üzerine kıl eleklerden geçirilip, altın tozuyla yıkanmış gibi incecik sarı kuma uzanır gibi uzanıp, hayaller dünyasında gezinirdi. Bu gezinti sırasında; başını annesinin göğsüne yasladığı zamanlarda hissettiği sıcaklığı arardı. Ne kadar düş kurarsa kursun, o sıcaklığı bir türlü yaşayamazdı. Hayat, kibriyle bağırıyordu: “Zamanın çarkları benim elimde. Boşuna çabalama!”<br />
+	Annesi, bir kez daha, evet, bir kez daha, sıcaklığını bırakmadan gitmişti. Duyguları sel gibi coşmaya başladı. Yanardağdan inen lav gibi yakıp yıkarak gelen bu duygu selinin önüne bildiği bütün sözcükleri örtü olarak yığsa da baş edemedi. Annesinin yasemin kokan parmaklarıyla okşayıp, “pamuk ellim” diye sevdiği, minicik elleriyle gözlerini kapatıp içli içli ağladı. Yüreği ağzında yaşadığı o birkaç günlük sevginin sıcaklığı, gözyaşı damlalarına dönüşerek, beynine bir iğne gibi saplanmıştı. Gece boyunca hiç, ama hiç uyuyamadı. Hıçkırarak ayağa kalktı. Teyzesi yatakta yüzükoyun yatıyordu. Hıçkırıklarını duymamıştı. Odanın kapısını ardına değin açık bırakarak dışarı çıktı. Tek arkadaşı apartmanın arka bahçesindeki ağaçlara yuva yapan kuşlardı. Günün her saatinde sokağın sessizliğini bölen kanat sesleri ona sevginin sıcaklığını çağrıştırırdı. Apartmanın girişindeki zeminde biriken su birikintisinin üzerinden atlamayıp, tam aksine yağlı birikintinin tam ortasına isteyerek bastı. Ayaklarını iyice ıslattıktan sonra kapıya doğru yavaş yavaş yürüdü. Dış kapıyı açtığı sırada dönüp arkasında bıraktığı boşluğa bakınca, zemindeki çıplak ayak izlerini gördü. Minicik ayak izleri peşi sıra geliyordu. Şaşkınlığını bir yana bırakıp, ölümsüzleştirdiği an’la hayatın kibrine bir çentik attığını düşünerek gülümsedi.<br />
+	Sokak kapısına vardığında, başını gökyüzüne doğru kaldırıp gerçek ve düşün dolambaçlı yolunda bir yıldız gibi kayarak kendini hep özgür hissedeceği sokağın rahmine bıraktı.</p>
+
+    
+
+
+
+  </div>
+</div>
+
+
+      
+      <div class="clearfix"></div>
+      
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style ">
+          <a class="addthis_button_preferred_1"></a>
+          <a class="addthis_button_preferred_2"></a>
+          <a class="addthis_button_preferred_3"></a>
+          <a class="addthis_button_preferred_4"></a>
+          <a class="addthis_button_compact"></a>
+          <a class="addthis_counter addthis_bubble_style"></a>
+          </div>
+          <!-- AddThis Button END -->
+      
+      <a href="/dergi/2/sekersiz"
+            class="icona large black prev pull-left tooltipped"
+            data-toggle="tooltip" data-placement="bottom" data-container="body"
+            title="Önceki">
+            <i class="fa fa-arrow-left"></i>
+      </a>
+      
+      <a href="/dergi/2/ag" class="icona large black next pull-right tooltipped"
+            data-toggle="tooltip" data-placement="bottom" data-container="body"
+            title="Sonraki">
+            <i class="fa fa-arrow-right"></i>
+      </a>
+       
+
+
+</section>
+
+      <div class="clearfix"></div>
+      <footer class="clearfix">
+        
+        <ul class="primary-menu pull-left">
+          
+<!-- <li><a href="/yazar/">Yazarlar</a></li>-->
+<li><a href="http://cercisanat.blogspot.com.tr/">BLOG</a></li>
+<li><a href="/manifesto/">MANİFESTO</a></li>
+<li><a href="/ekip/">EKİP</a></li>
+<li><a href="/site-kurallari/">SİTE KURALLARI</a></li>
+<li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>
+<li><a href="/iletisim/">İLETİŞİM</a></li>
+
+        </ul>
+        
+        <div class="copyright pull-right">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="/static/images/cc.png" /></a>
+        </div>
+      </footer>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.author{
+    min-height: 120px;
+}
+
+.author .desc {
+    margin-left: 20px;
+}

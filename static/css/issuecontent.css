@@ -1,0 +1,207 @@
+.issuecontent {
+    overflow: hidden;
+}
+
+cite.authors {
+    font-size: 1.2em;
+}
+
+ul.authors li {
+    border-left: 2px solid white; 
+    padding-left: 0.3em;
+}
+
+ul.authors li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+nav.toc a {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, .content p, .spot {
+    font-family: 'Roboto Slab', 'Lora', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+hgroup.main-hgroup {
+    margin-bottom: 40px;
+}
+
+blockquote:before {
+  content: "\201C\00a0 ";
+}
+
+blockquote:after {
+  content: "\00a0 \201D";
+}
+
+cite {
+    font-size: 1.8em;
+}
+
+.content p, .spot { 
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.8em;
+}
+
+.spot {
+  font-size: 1.6em;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 40px;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+figure {
+  background-color: black;
+  color: white;
+  margin: 15px 15px 15px 0;
+}
+
+figcaption {
+  color: white;
+  padding-left: 10px;
+  font-family: "Ubuntu",sans-serif;
+  font-size: .8em;
+  max-width: 280px;
+}
+
+figcaption a,
+figcaption a:focus,
+figcaption a:visited,
+figcaption a:link,
+figcaption cite a,
+figcaption cite a:focus,
+figcaption cite a:visited,
+figcaption cite a:link{
+  color: white;
+}
+
+figcaption h1 {
+  color: white;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 1.2em;
+}
+
+.audio {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;
+}
+
+.audio-description {
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+section.issuecontent .figure-body.body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content img {
+  margin: 15px;
+}
+
+.figure-content figure {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: transparent;
+}
+
+.figure-content figure img {
+    width: 96%;
+}
+
+.notifications-trigger,
+.mobile-notifications-trigger {
+    display: none !important;
+}
+
+.container {
+    max-width: 968px;
+    border: none;
+}
+
+.issuecontent hgroup.page-header,
+header {
+    display: none !important;
+}
+
+.preview-alert {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: fixed;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    color: #424242;
+    text-align: center;
+}
+hr:after {
+    content: "***";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: none;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote:after {
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
+    vertical-align: -0.6em;
+}
+
+img.ortala {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 1em;
+    }
+
+    figure.image-container {
+        float: none !important;
+    }
+
+    figure.image-container img {
+        width: 100%;
+    }
+}

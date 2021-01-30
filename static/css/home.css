@@ -1,0 +1,57 @@
+img.cover:hover {
+  box-shadow: 0 0 20px #63AA9C;
+}
+
+img.cover {
+  max-width: 370px;
+  margin-bottom: 10px;
+}
+
+img.cover.last {
+  margin-bottom: 0;
+}
+
+.editorial {
+    overflow-y: hidden;
+    padding-right: 40px;
+    line-height: 1.5em;
+    font-size: 1.7em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.editorial p {
+    margin-bottom: 20px;
+}
+
+#issues-mobile {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    img.cover {
+        width: 100%;
+    }
+
+    .editorial {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 768px) {
+    .editorial {
+        font-size: 1em;
+    }
+
+    #issues {
+        display: none;
+    }
+
+    #issues-mobile {
+        display: block;
+    }
+}
+@media (max-width: 385px) {
+    img.cover {
+        width: 100%;
+    }
+}

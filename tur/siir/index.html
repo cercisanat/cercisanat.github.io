@@ -1,0 +1,2337 @@
+<!DOCTYPE html>
+<html lang="tr-TR" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <title>Çerçi</title>
+    
+
+    
+
+<meta charset="utf8" />
+<meta http-equiv="Content-Language" content="tr" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic|Ubuntu+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" href="/static/favicon.ico" />
+<link rel="stylesheet" href="/static/css/template.css" type="text/css"/>
+<link rel="stylesheet" href="/static/css/animations.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.ie.css" type="text/css"/>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/static/css/ie8.css" type="text/css"/>
+<![endif]-->
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/static/ajax_forms/js/jquery-ajax-validation.js"></script>
+<script type="text/javascript" src="/static/photobox/jquery.photobox.js"></script>
+<script type="text/javascript" src="/static/js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="/static/js/responsive/main.js"></script>
+
+
+
+    
+<link rel="stylesheet" href="/static/css/genre.css" type="text/css"/>
+<link rel="stylesheet" href="/static/css/toc.css" type="text/css"/>
+
+  </head>
+  <body>
+    
+      <header class="clearfix">
+        
+        
+        
+        <nav role="navigation" class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse"
+                data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand">
+              <img class="rotate" src="/static/images/cerci_logo2_white.png" style="height:30px" />
+              </a>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+              <ul class="auto-active nav navbar-nav navbar-left"> 
+                <li><a href="/manifesto/">MANİFESTO</a></li>
+                <li><a href="/ekip/">EKİP</a></li>  
+                <li><a href="/yazar/">ÇERÇİLER</a></li>
+                <li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>  
+                <li><a href="/blog/">BLOG</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      title="Abone ol"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-book"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <div class="subscription-form">
+                      <h3>E-posta aboneliği</h3>
+                      <form action="/newsletters/" method="post" class="ajax-form subscribe-form">
+                      <p>
+                        Abone olun ve yeni sayımız çıktığı anda haberiniz olsun.<br/>
+                        (Abonelikten istediğiniz zaman ayrılabilirsiniz.)
+                      </p>
+                      <input type='hidden' name='csrfmiddlewaretoken' value='Oe0VEE9tlhcIvzMdMyxjo9iNLQjOHtzi' />
+                      
+
+
+
+
+    
+<div class="form-group id_name ">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_name" maxlength="255" name="name" placeholder="İsim" type="text" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+    
+<div class="form-group id_email  required">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_email" maxlength="255" name="email" placeholder="Email" type="email" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+
+
+                      <button type="submit" class="btn">Abone ol</button>
+                      </form>
+                      <div class="clearfix"></div>
+                      <div class="subscribe-success">
+                        E-posta aboneliğine üyeliğiniz başarıyla gerçekleşti.<br/>
+                        Bir kayıt daha yapmak için <a href="/newsletters/" class="another-subscription">tıklayın</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-search"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <form action="/arama" class="navbar-form" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="q" placeholder="Arama" />
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              
+              <ul class="nav navbar-nav navbar-right social">
+                <li>
+                  <a href="https://www.facebook.com/CerciSanat" target="_blank"
+                    title="Facebook'ta Çerçi Sanat">
+                      <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/cercisanat" target="_blank"
+                    title="Twitter'da Çerçi Sanat">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://plus.google.com/107839000424667573646/posts"
+                    target="_blank" title="Google+'ta Çerçi Sanat">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://pinterest.com/cercisanat/" target="_blank"
+                    title="Pinterest'te Çerçi Sanat">
+                    <i class="fa fa-pinterest-p"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/cercisanat/" target="_blank"
+                    title="Instagram'da Çerçi Sanat">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/cercisanat" target="_blank"
+                    title="Github'da Çerçi Sanat">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+
+              </ul>
+              
+            </div>
+          </div>
+        </nav> 
+        
+        <div class="clearfix"></div>
+      </header>
+    <div class="container">
+      
+      
+      <div class="unnecessary-zone">
+        <div class="row row-centered logo-wrapper">
+          <div class="col-centered">
+            <a href="/" class="logo">
+              <img class="add-rotate-slow" src="/static/images/cerci_wheel_black2.png" />
+              <img src="/static/images/cerci_black2.png" />
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+
+      
+<section class="table-of-contents">
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/monsieurblanchson.JPG.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/monsieurblanchson.JPG.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/monsieur-blanc-olayi">Monsieur Blanc Olayı</a>
+              </h1>
+              <h2><a href="/yazar/miray-cakiroglu">Miray Çakıroğlu</a></h2>
+              
+              
+	Monsieur Blanc,
+	Az önce merdivenlerden indiniz.
+	Etraf sizinle dolup taştığında
+	O tarafa bakmıyordum bile
+	İsminizle bir an
+	Duyuların tek verisiydiniz
+	Bir tek isminiz.
+
+	Oradaydınız Monsieur Blanc,
+	Sizin için kalemimin ucunu sivriltmem gerekti.
+
+	Bundan önce
+	Ayın hallerine bulduğum
+	Ayın hallerine
+	Ayın hallerine yakıştırdığım
+	Kendi verdiğim
+	Tavırların
+	Sizinle ilgisi olduğunu hiç düşünmedim.
+
+	Bundan önce
+	Yolu Gösteren’in
+	bakışları önünde
+	zürafa, gergedan, aslan, zebra, tilki ve kuş,
+	kuş kafileleri geçti.
+	Kafileler bir zaman geçti.
+	Geçit belli bir ışık altında,
+	Bakışların önündeydi.
+	Belli bir zaman aldı bu
+	Belli bir zaman
+	İsimsizdi.
+	Sizinle ilgisi olduğunu düşünmedim.
+
+	Etrafta şeyler oldu
+	Ve şeylerin arasında
+	İpincecik gümüş teller ...
+              
+              
+
+<div class="tags">
+Etiketler:
+
+    <a class="label" href="/etiket/siir">şiir</a>
+
+</div>
+
+
+
+              <a class="more" href="/dergi/7/monsieur-blanc-olayi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/img-X08094503-0001.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/img-X08094503-0001.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/duskunluk-bildirisi">Düşkünlük Bildirisi</a>
+              </h1>
+              <h2><a href="/yazar/alptug-topaktas">Alptuğ Topaktaş</a></h2>
+              
+              
+	kablo inanmaktır
+
+	dilim sertse bir kanaatte çözülürsün
+	ip demek disiplin demektir bunu sev
+	alyans da alabilirdim ama tek taşa okeye döndüm
+	çok sözcük çizdim çuhadan, ıstakayı ıslıkladım
+	bir ihaleye kaldım ki gidişimli, bunu sevme
+
+	&nbsp; saflarkat:&nbsp; benz/in ruhun kisvesinde
+	&nbsp;&nbsp;&nbsp; işbu iştahla iştihaya kalkışan
+	&nbsp;&nbsp;&nbsp; deyruzaferan deyu deyulektik ma ter yalı
+	&nbsp;&nbsp;&nbsp; izminden izne çıkıp sürülen
+	&nbsp;&nbsp;&nbsp; kurt şerhlerinin beyin lobunu lobilerden
+	&nbsp;&nbsp;&nbsp; dev/şiren seslerinin de şirelenebileceğini
+	&nbsp;&nbsp;&nbsp; göster, yarım düzine hubbülvatanla
+
+	yanlış ağartı- narsistik itlik itkinin itelenerek kilitlenmesi
+	çorumları uçurumlara denk gelince yüzölçümünü
+	söz ölçümüne devreden ve irkiltinin alıştığı devreden
+	insanlığın kurumlaşarak kutsandığı evreden
+	ve künhülahbar ...
+              
+              
+
+<div class="tags">
+Etiketler:
+
+    <a class="label" href="/etiket/siir">şiir</a>
+
+</div>
+
+
+
+              <a class="more" href="/dergi/7/duskunluk-bildirisi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/ad434482-67db-4962-abc1-662f37c0e91e.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/ad434482-67db-4962-abc1-662f37c0e91e.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/ben-dunya-ve-oteki">Ben, Dünya ve Öteki</a>
+              </h1>
+              <h2><a href="/yazar/seyma-tekintas">Şeyma Tekintaş</a></h2>
+              
+              
+	Ben suçlunun biriyim.
+	Dünya da öyle.
+	Ortaçağ’dan kalma bir bilye
+	sıkıştı&nbsp;
+	sanırım tanrının dişlilerine
+	(ve çocukların gülüşlerine)
+	Bir değil
+	Düzinelerce
+	Yasak meyve yenmiş olmalı
+	Ki mahkum edilsin peygamberler
+	ve insanlar
+	Bu denli sömürgeci bir kedere.
+
+	Dünya korkağın teki.
+	Hele ben?
+	Hele ben!
+	Başımızın hemen üzerinde beliren
+	Konuşma balonları
+	Bomboş
+	Bomboş
+	Bomboş
+	Vişne bahçelerinde büyüyen
+	o cengâverler
+	Tam olarak nerede?
+	Çatılara kar olmayı
+	Gökyüzüne kuş olmayı
+	Özleyen-
+	ler
+	Hangi cehennemde?
+
+	Dünya yüz iki yerinden bıçaklandı geçenlerde.
+	Ben yaşıyorum.
+	(ama nasıl?)
+	Ayaklarımın dibine düşen kan damlaları
+	Perde perde
+	örtüyor kıtaları
+	(Bunları görmüş olsaydı
+	eminim O da çıldırırdı)
+	İğne ucu büyüklüğünde bir ...
+              
+              
+
+<div class="tags">
+Etiketler:
+
+    <a class="label" href="/etiket/siir">şiir</a>
+
+</div>
+
+
+
+              <a class="more" href="/dergi/7/ben-dunya-ve-oteki" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/IMG_7992.JPG.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/IMG_7992.JPG.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/alemdagda-var-bir-yilan-1">Alemdağ&#39;da Var Bir Yılan</a>
+              </h1>
+              <h2><a href="/yazar/mustafa-ozan-seyfi">Mustafa Ozan Seyfi</a></h2>
+              
+              
+	Yirmisinde var mıydı, yok muydu
+
+	Bilinmez...
+	Bilinmezdi hangi düşte dolanır
+	Kimi balık, kimi serçe
+	Çipil çipil gözleri.
+
+	
+	O geceydi,
+	Aldılar götürdüler.
+	Simitçiler ve şarapçılar şahittir
+	İki yanı iki polis,
+	Yürüdü karanlık koridorlarda
+	Önü rutubet, ardı sis.
+	Bir köy düşünde
+	Nohut yolan, elleri nasırlı
+	Yüreği ve ömrü nasırlı
+	Bir adam vardır,
+	Gözleri serçe gözleri.
+	Gözyaşı döker belki,
+	Bilinmez.
+
+	
+	Bilinmezdi saçındaki tel tel akların,
+	Alnındaki derin yarıkların sebebi.
+	Bir çocuktu ki,
+	Uykusu yarım kalmış, huzursuz...
+	Bir adamdı ki,
+	Boynunda bir İsa ölüsü,
+	Kavgasında kusursuz...
+	Kimsenin aklına gelmezdi hani,
+	Bu sondan başka türlüsü.
+
+	
+	Küfreder gibi,
+	Kavgaya gider gibi,
+	Yürüdü karanlık koridorlarda
+	İki yanı ...
+              
+              
+
+<div class="tags">
+Etiketler:
+
+    <a class="label" href="/etiket/siir">şiir</a>
+
+</div>
+
+
+
+              <a class="more" href="/dergi/7/alemdagda-var-bir-yilan-1" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" scr="#"
+    data-src="/media/images/issue/thumbnails/output.png.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/issue/thumbnails/output.png.768x600_q30_crop-0%2C0.jpg"
+    alt="Kapak Resmi" title="Kapak Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/7/evliya-ve-karga">Evliya ve Karga</a>
+              </h1>
+              <h2><a href="/yazar/levant-karatas">Levant Karataş</a></h2>
+              
+              
+	+Şarkı mı söylüyor o?
+
+	-(Şöyle dedi Çelebi) -Evliya Mezarlığı'nda mı çocuk? (Hikaye böyle başladı. Akıl'ı evvellerin bile aklı sır olacağı, latife hikayesi.)
+
+	+Gagasındaki ıslak ekmek parçasını bıraktığı bir Evliya Mezarı mı Çelebi?
+
+	-Kargalar onları yalnız bırakmazlar.
+
+	+Evliyaları mı?
+
+	-Evliyaları çocuk. Hala Üsküdar'da takunya sesleri duyulur hu.
+
+	+Ne konuşuyorlar peki? Karga ne anlatıyor Evliyaya Çelebi?
+
+	-Hep konuşulanları
+
+	+Ne Konuşuyoruz ki biz hep?
+
+	-Biz değil. Biz konuşmuyoruz. Onlar. Aralarında latifeleşiyorlar.
+
+	+Latife mi? Görünen şu ki karga yaralı Çelebi.
+
+	-Perde kıpırdamasın, görünürsen, uçar o karga konduğu mezardan.
+
+	Öyle de oldu. Perde kıpırdadı. Karga affallayıp baktı. Görünmüştüm. Ve uçup gitti Hasbihal ...
+              
+              
+
+<div class="tags">
+Etiketler:
+
+    <a class="label" href="/etiket/siir">şiir</a>
+
+</div>
+
+
+
+              <a class="more" href="/dergi/7/evliya-ve-karga" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/b2.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/b2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/davranis-bozukluklari">Davranış Bozuklukları</a>
+              </h1>
+              <h2><a href="/yazar/engin-atmaca">Engin Atmaca</a></h2>
+              
+              
+	Adında gizli bu davranış bozuklukları
+	Bu sabah üşümeleri
+	Ve bu baş ağrıları zamansız
+
+	Pencere kenarı sigara sönükleri
+	Oda sessizliği...
+	Sosyal mesaj vermekte gündüz kuşakları
+	Ve bir ters bir düz hala örnekleri masa örtülerinin
+
+	Yeni sayılsa da eski sözler
+	Kaç kere duydun dimi
+	Avuçlarımda kül taneleri
+	Aslında yüzüme sürdüm ondan kara sayarım talihimi
+
+	Adında gizli bu telaşlı öngörüler
+	Baltaya sap olma hataları
+	Ve çok yanlışla hiç doğruyu götürme acemiliği
+
+	El pençe, divanın tahtası kopuk
+	Akılda ne kalmış kime ne vermiş
+	Kulaklarımda ezgileri silinmiş büyük şehir hafta sonları
+	Adını bilmezsin...
+
+	Adana'da hava sıcak
+	Başımın üstünde sedir ağacı gölgesi...
+
+	Adını bilmezsin...
+
+	Hiç ...
+              
+              
+
+<div class="tags">
+Etiketler:
+
+    <a class="label" href="/etiket/siir">şiir</a>
+
+</div>
+
+
+
+              <a class="more" href="/dergi/6/davranis-bozukluklari" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/orkun_egilmez.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/orkun_egilmez.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/yumru">Yumru</a>
+              </h1>
+              <h2><a href="/yazar/talita-yaltirik">Talita Yaltırık</a></h2>
+              
+              
+	
+	dile getirince bayatlayan sözler&nbsp;
+	-ne güzel şeylerdi yalnız benim bildiklerim-&nbsp;
+	yine muğlak&nbsp;
+	dibi görünmüyor&nbsp;
+	bir kuyu bir şehri sararsa şayet&nbsp;
+	taşlar seker, bombalar yağar&nbsp;
+	pastörize edilmiş yalnızlıklar&nbsp;
+	oturmuş sesini ilikliyorum&nbsp;
+	sahipsizliğini yürüyor&nbsp;
+
+	elleriyle koşması zor iki ayaklıların&nbsp;
+	ben yine bir ürpertiyle adını emekliyorum&nbsp;
+	enflasyon çekmiyor burada&nbsp;
+	reklam almıyor gazete köşeleri&nbsp;
+	bir mecburiyeti biçiyorum&nbsp;
+	pasaklar
+	parmak uçlarına sızıyorum&nbsp;
+	her simada parmak uçları arıyorum &nbsp;
+	altı delik bir sıfır’dan, sessiz harfleri topluyorum&nbsp;
+	bir yirmilik diş oluyorum&nbsp;
+	çocuklar sütü güğümlerden öğrenmeli&nbsp;
+	sigara içmeyene neydi küllükler&nbsp;
+	körler için gözlük camları&nbsp;
+	ev eksiği var, adım başı ‘’iş adamları derneği’’&nbsp;
+	bugün, üzerime iki beden ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/yumru" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/ercan_y_y%C4%B1lmaz_g%C3%B6rsel_%C5%9Fiir.jpg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/illustrations/thumbnails/ercan_y_y%C4%B1lmaz_g%C3%B6rsel_%C5%9Fiir.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/eternity-and-any">Eternity and Any</a>
+              </h1>
+              <h2><a href="/yazar/ercan-y-yilmaz">Ercan y Yılmaz</a></h2>
+              
+              
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/eternity-and-any" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/osman_goktug_turkmen.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/osman_goktug_turkmen.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/uyusmus-yuz">Uyuşmuş Yüz</a>
+              </h1>
+              <h2><a href="/yazar/erkan-karakiraz">Erkan Karakiraz</a></h2>
+              
+              
+	
+	tüylerini toplayıp sakladım. meleğin. nereye
+	koyduğumu unuttum kırılganlığımı. öyle katıdır,
+	öyle dayanıklıdır kalbim: darbeleri savuşturuverir
+	bir kılıç darbesiyle.
+	&nbsp;
+	duvara toslamışçasına uyuşmuş yüzümüzle, rüzgârın
+	eteklerinde uyuyoruz. kapısından
+	dönmüşüz, evde bulamamışız yaşlılığı.
+	sulh zamanıdır iki-boyutlu anlamsızlıkta.
+	önce kendin inanmalısın yalanlarına.
+
+	&nbsp;
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/6/uyusmus-yuz" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/b1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/b1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/6/kusurlu-hayatlar-ardisik-indirimli">Küsürlü hayatlar ardışık indirimli</a>
+              </h1>
+              <h2><a href="/yazar/caner-ok">Caner Ok</a></h2>
+              
+              
+	Küsürlü hayatlar ardışık indirimli
+	koynunda yılan ve beslenme çantası 
+
+	boynunun borcu hovardalıkla,
+
+	 müteakiben bilmem kaç yılında
+
+	 çok büyük günahlarla flört halindeki sadık efendinin
+
+	 park ederdi zihnine acıkmış dekolteli salyangozlar
+
+	 ve diyetteki&nbsp; cilalı filler 
+
+	takvimler yıl bilmem kaçı göstermiyordu ağır grevdelerdi,
+
+	 kadınlar çocuklarını emzirmiyordu sadece şekerle besleniyordu 
+
+	karaciğerleri rakıya hasret gürbüz çocuklar. 
+
+	zeval zamanları komseriydim, çok cevvaldim cesur bir müneccimle çok
+
+	 feci kavgalıydım papatyaları ve laleleri parktan yürütüp satan çingene yakınen ahbabımdı.
+
+	Ama,pek tabi, maalesef kafayı yemiştim, 
+
+	kafayı bir öğlen yemeğinde spagettimle
+	ve sarışınlaşan sosumla&nbsp; yemiştim.
+
+	 spagetti western izlerken acıkmıştım ve yemiştim.
+	bilmemkaçıncı ganyanda , topallanan atın gölgesinde pişirmiştim
+	gittikçe kumrallaşan ...
+              
+              
+
+<div class="tags">
+Etiketler:
+
+    <a class="label" href="/etiket/siir">şiir</a>
+
+</div>
+
+
+
+              <a class="more" href="/dergi/6/kusurlu-hayatlar-ardisik-indirimli" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/IMG_8220_2.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/IMG_8220_2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/karsiz">Karsız</a>
+              </h1>
+              <h2><a href="/yazar/erkan-karakiraz">Erkan Karakiraz</a></h2>
+              
+              
+	cam maske parçalar yüzü
+	aynada gördüğün sen misin? başkası mı?
+	orada mısın gerçekten?
+	içinde odanın içindeki odanın içinde
+	iç çeker, konuşur yansıması bilincin:
+	neredeyim? bir çayır olmalı, bir tepe, karsız bir doruk...
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/karsiz" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/PaperArtist_2014-07-25_15-44-46.jpeg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/PaperArtist_2014-07-25_15-44-46.jpeg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/dokunmaya-agit">Dokunmaya Ağıt</a>
+              </h1>
+              <h2><a href="/yazar/doga-cam">Doğa Çam</a></h2>
+              
+              
+	bir günü saati vardır elbet
+	ama ezeli gibi bu hal bana
+	hep elgin kalıyor çünkü eller
+	eeeyvaah diyor annem, oğlanı fırında unuttuk!
+	nar olacağım diye girmişim tandıra
+	har olup çıkmışım
+	bundandır gurbet türkülerimi
+	memlekette yakarım
+
+	sılaya yazılı mektuplarmış gibi
+	ellerimle biriktirdim derdimin pullarını
+	kılçığa dönmüş bir balığın
+	boşuna yamıyormuşum sırtını
+	ellerim ki tanıyamıyorum dokunduğum bu sırtı
+	vatanım zamanın müştemilatı
+	geri verin çakmağımı,
+	ellerim yanmadan
+	kundaklayayım nice böğürlerimi
+	emanet yüreklerimi
+
+	çöllerin ciğerini öptüğü
+	eczası ceza olmuş meczupların
+	ellerini budamalı her gün
+	gür çıksın parmakları
+	kurban edilmeden akraba bir kıvılcıma
+
+	&nbsp;
+
+	
+	har narın zenci ikizi
+	hani vacipti kardeşin muhabbetle katli
+	harı elle ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/dokunmaya-agit" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/20141215105034982_0001_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/20141215105034982_0001_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/bir">Bir </a>
+              </h1>
+              <h2><a href="/yazar/ali-kirkar">Ali Kırkar</a></h2>
+              
+              
+	​​​-berkin elvan’a-
+	Büyük, bir çok ölçüdür;
+	Bir çok var içinde.
+	Küçük, yokun büyük oğlu;
+	Çünkü bir, en afili
+	Dik duruştur birçok içinde…
+	
+	Azım ağrıyor çokluk içinde,
+	Sezgi&nbsp; ustalıkla geçer de aradan
+	Damla damlaya değse
+	Yağmur yağmur olmayacak;
+	Islanan sızımdır,
+	Yüzümün coğrafyasında sürgün
+	İncecik bir fidan kırılır
+	Ah!
+	Ağaç nedir ki orman içinde…
+	
+	Büyük, bir çok ölçüdür
+	Bir daha bir daha bir daha bir daha
+	Adı kalır
+	Esame içinde ismiyle müsemma
+	Yürür sözün özsuyunda
+	Bir
+	Daha bir
+	Daha bir
+	Daha
+	Bir
+	Daha...
+	
+	Gidiyoruz ya şimdi bir
+	Bire bin verir yurtsuz acının içinde
+	
+	Büyüklük birde kalsın…
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mart - Nisan 2014
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/bir" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/20141215105034982_0002.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/20141215105034982_0002.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/5/ekin">Ekin</a>
+              </h1>
+              <h2><a href="/yazar/talita-yaltirik">Talita Yaltırık</a></h2>
+              
+              
+	güne bak
+	arada kaynasın istediklerimiz yine kaynamadı arada
+	petrol çukurlarında insan ölüleri
+	televizyonu kapattık ve evden çıktık
+	
+	kapı eşiğinde örülen saçlar dillendi
+	demir ağlarla örmeye gerek yokmuş&nbsp;
+	yurdun her bir yerini
+	
+	savaş yolunda kuşanırken biri
+	meydan yolunda soyundu öteki
+	mesele değildi ki
+	kimin gözlerinden başlayıp
+	hangi yumruğun inişine kadardı göğümüz
+	sol yumruk kalp de, devrim de olurdu zira
+	yumruğumuz elimizde, evden çıktık
+	
+	baktık, bir ev bacasını yutmuştu
+	petrol çukurlarında midye kabukları
+	sınırlarını arşınladık hissetmeme eşiğimizin
+	ortak bir ölçü bulamadık
+	oysa bütün balkonlar yüz yüze bakmasalar da&nbsp;
+	sigara molalarında yapılırdı ülke kritikleri
+	önce kim susarsa o birinci
+	
+	evden çıktık
+	yine bir ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/5/ekin" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/karar_1.jpeg.968x400_q30_crop-smart.jpg"
+    data-src-mobile="/media/images/illustrations/thumbnails/karar_1.jpeg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/karar">K&#39;arar</a>
+              </h1>
+              <h2><a href="/yazar/serdar-solkun">Serdar Solkun</a></h2>
+              
+              
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/karar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/ilker_filiz.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/ilker_filiz.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/cunku-dagin-agridigi-tek-ulke-burasi">Çünkü Dağın Ağrıdığı Tek Ülke Burası</a>
+              </h1>
+              <h2><a href="/yazar/ilker-filiz">İlker Filiz</a></h2>
+              
+              
+	bu şiirime epey zengin bir kafiyeyle başlamak istiyorum
+	afedersin, ama postmodernsin
+	bir kuşla iki taş vuran adam biliyorum
+	şimdi cezaevinde evrensel bir deyimin türevini almaktan ötürü
+	ağırsiklet şampiyonlarının yanında yatıyor
+	oysa iki taşla bir kuş vuramayan adamım ben
+	yani, hepimiz gibi
+	google earth'de kabenin etrafını tavaf eden bir müslüman gibi
+	ya da evini bulmaya çalışan masum bir köylü
+
+	köylü dedim de, sadece doğanın ağzı kokmaz
+	ve her şey kuş sesidir uykusuzluk direnişinde
+	haziran'da direnmek kolay, ölmek hâlâ zor
+	mevsim güçlenir o zamanlar
+	ve doğruyu diretmek olay
+	nefsin terslenir, o yalanlar
+	direnişi bilmeyenin serzenişi fısıltıyla kardeştir
+	ve çok uzaktan ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/cunku-dagin-agridigi-tek-ulke-burasi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/nasname.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/nasname.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/nasname-kimlik">Nasname (Kimlik)</a>
+              </h1>
+              <h2><a href="/yazar/rojen-barnas">Rojen Barnas</a></h2>
+              
+              
+	Nasname
+
+	Nasnameya min di devê min de
+	Derya min a fikr û tesewirê
+	Hişê min jê hêzê distîne
+	Bilindî ûkûrî pê
+	Teşe didin pêlên fikrê.
+	Nasnameya min di devê min de
+	Dayina dê ûbavê min
+	Ne pasaport e ku bê çirandin
+	Ne kaxiz e ku tu bavêjî
+	Nasnameya min di devê min de
+	Kes nikare bistîne ji min
+	Zimanê min î şîrîn ûnazik
+	Zimanê min î çoris ûtûj
+	Nasnameya kesîtiya min
+	Nerm e geh, geh bi girrik
+	Nasnameya min di devê min de
+	Zimanê min î bav ûkalan.
+
+	Kimlik
+
+	Ağzımdadır kimliğim
+	Denizi tasavvurlarımın ve fikirlerimin
+	Aklım ondan alıyor gücünü
+	Yükseklik ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/nasname-kimlik" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/nokta_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/nokta_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/nokta">Nokta</a>
+              </h1>
+              <h2><a href="/yazar/erkan-karakiraz">Erkan Karakiraz</a></h2>
+              
+              
+	karışık dolaşık bakımsız saçlarım
+	bir silaha dönüşmüş çocukluğum, patlamaya hazır!
+	küçülmüş gözbebeklerimde sanrısı çarpışmanın
+	koyu renkliyse, korkma akşamın çöküşünden
+	gücünün harcanması
+	varoluş karşısında
+	beyaz infilak. sapsarı ölüm.
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/nokta" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/soru.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/soru.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/soru">Soru</a>
+              </h1>
+              <h2><a href="/yazar/ali-kirkar">Ali Kırkar</a></h2>
+              
+              
+	Her şeyi hatırlıyorum
+	Beni bir ağacın dibinde unuttular
+	Mevsimlere teğellenmiş
+	Bir dişbudak
+	Kanıyor gövdemden…
+
+	Sesim
+	Yüzümün duyulanı
+	Kalır gider bir tutamak
+	Kum saatinde kum kadar kavramak
+	Anlamını ancak
+	Kendi boşluğunda bulan
+	Ve yine kendisiyle dolan zamanı…
+
+	Her kim erse öznesi
+	Suya gidip susuz dönen fiillerin
+	Anlamaya ayarlı saatlerle
+	Her kimsem
+	Neysem
+	Sadece tik
+	Ve tak
+	Ben
+	Susmayı bildim o denizlerden…
+
+	&nbsp;
+
+	Kaç kere geçer
+	Bir sorunun önünden
+	Bu
+	Yüzümde güle dönmez düğüm
+	Her nere konsa yaşar acı…
+
+	Kim yaptınız beni?
+	&nbsp;
+
+	Mayıs 2014
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/soru" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/tas_avlu.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/tas_avlu.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/4/tas-avlu">Taş Avlu</a>
+              </h1>
+              <h2><a href="/yazar/yusuf-turhalli">Yusuf Turhallı</a></h2>
+              
+              
+	Tayları mille çekeceğine
+	karanlıkla imtihan edince
+	düşüyor kumrular
+	düşleri iğdiş bir kaplan
+	dönüp dönüp yomsuz karanlıkta
+	çocuklar neden bahsediyor
+	kalabalık salınıyor sürahiden
+	gaz bilmeyen bunu hiç bilmez
+	yaşıyor!
+
+	yaşlanmış gök gök, yumruk yumruk
+	çağıldamasa da damla damla
+	çocuğu ölümle imtihan etme
+	şuramda bir acı, aksak
+	akrabam şuramda buram buram
+	zorlasan sığacak acı bir buçuk aralığa
+	bilmesem de oluyor
+
+	sökün edip taylar coşku coşku
+	insanlar elleriyle gökyüzü krikosu
+	parmakları rahim ve rahman
+	her coğrafyaya bir ölü hediye ederek
+	dökülüyor ipe çekilmiş çocuklar korosu
+	bando karası, isim vermeye öyle korku
+	ıslak sokaklar boyu ağlamaktan
+	iplik iplik gözleri, yol yol
+	gaz bilmeyen bunu ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/4/tas-avlu" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/uc_gunluk_elektrik_kesintisi-_onur_saylam_2.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/uc_gunluk_elektrik_kesintisi-_onur_saylam_2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/uc-gunluk-elektrik-kesintisi-uzre-yazilmis-siir-ya-da-senin-fokurdayan-saclarin">Üç Günlük Elektrik Kesintisi Üzre Yazılmış Şiir Ya Da Senin Fokurdayan Saçların</a>
+              </h1>
+              <h2><a href="/yazar/yusuf-turhalli">Yusuf Turhallı</a></h2>
+              
+              
+	Senin saçların böyle çok sarı
+	eprimiş her yerleri ve
+	teller telekler sarkıyor avurtlarından
+	gökyüzü cahili ki dünya
+	yıllar falan hikâye
+	şimdi, sadece zaman söküğü
+	evler hep göz hapsinde hep
+
+	mesela elektrikler gitmiş karanlık komple
+	renklam panoları, şu bedenler
+	hep ışıklı yollar yüzünden
+	sana baktıkça eprimiş kelimeler bir bir
+	yüzünde yıllanmış bir telkar
+	gümüş oyuyor
+	dönüp bakıyorum ki sırf lirik olsun gitmek
+	yollar hep hikaye
+	senin saçların böyle çok sarı
+	böyle çok çok
+
+	teller telekler her yan
+	evler hep karanlık bu arsız karadelikler
+	cenin pozisyonu saçların sarı çok
+	gümüş oyuyor telkarlar
+	dünya bir gökyüzü cahili bir gökyüzü cahili…
+	dünya, çok kalabalık ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/uc-gunluk-elektrik-kesintisi-uzre-yazilmis-siir-ya-da-senin-fokurdayan-saclarin" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/muhtedileri_asin_ngizem-malkoc_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/muhtedileri_asin_ngizem-malkoc_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/muhtedileri-asin">Mühtedileri Asın</a>
+              </h1>
+              <h2><a href="/yazar/caner-ok">Caner Ok</a></h2>
+              
+              
+	Bir levazım sarayında çerçiyim.
+	Teşriflerim hep tehirli, mühtedi bir kozmonot gibi,
+	Her diyarda ayrıkotu yahut kandil çürüğü bir Kasımpatı.
+	Harfiyen ihmal edilmiş, telaffuzu eflatunlu
+	Bir şairim, infaz ettim şiirimi, pek buruktu,
+	Pek Mecnun’dum tahsillerim yarım Çerkez ağızlı isyankâr,
+	Teveccühü borç bilirdim, Dadaist bakkaliyemde yazılıdır efsunlu tarihim.
+	Çakıl taşlarımla eğlenirken, karanfil çiğnemekten çürümüş dudaklarımla
+	Abanoz yelkenlere asıldım.
+	Körpe kızlara hoyrat davranan bir Don Kişot gibi,
+	Yel değirmenine asılı çamaşırım ve boynumdadır urganım.
+	Fısıltı gazetelerinde fısıl fısıl çürüyor aklım .
+	Çukurcuma berberi kesti kulağımı, Van Gogh gibi kumral da değilim ki.
+	Esmerim, çulsuzum ve yalnızlıklarla imtihanlanmışım.
+	Çeşitli hezeyanlar. Do-re-mi-fa-sıl.
+	Lan ne şarkısı ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/muhtedileri-asin" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/aksamustu_olum-ayfer_feriha_nujen_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/aksamustu_olum-ayfer_feriha_nujen_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/aksamustu-olum">Akşamüstü Ölüm</a>
+              </h1>
+              <h2><a href="/yazar/faruk-keskin">Faruk Keskin</a></h2>
+              
+              
+	Unutuyorum,
+	Telaşa kapılıyorum
+	Hatırlamaya çalışıyorum yüzünü
+	Tepemizde hasta bakıcılar
+	Ne zaman hatırlamaya kalksam yüzünü
+	Beni başka bir odaya alıyorlar
+	Aynada yüzümü görünce
+	Sen gelmiyorsun aklıma
+	Tuhaf
+	Bütün ölüler bizi biliyormuş oysa...
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/aksamustu-olum" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/zaman-ayfer_feriha_nujen_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/zaman-ayfer_feriha_nujen_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/zaman">Zaman</a>
+              </h1>
+              <h2><a href="/yazar/can-karakus">Can Karakuş</a></h2>
+              
+              
+	iç mesafeleridir
+	tırtıla dokunulmadan
+	değişen göz
+	bir durum ile
+	bir durum yalnızlaşması
+	göz açıp kapayıncaya kadar
+	ki artık yok
+	ne biçtiği belli
+	ömür diye; bana da, tırtıla da
+	ancak sayınca eksiliyormuş gibi geliyor
+	aslında zaman hiç yok
+	incinendir sadece akşamüstleri
+	bir salkımın bir salkıma
+	bir bağın bir bağa
+	bir bağcının bir bağcıya
+	yitirdiklerini devretmesidir zaman
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/zaman" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/karada_bogulma_sanati-_gizem_malkoc_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/karada_bogulma_sanati-_gizem_malkoc_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/karada-bogulma-sanati">karada boğulma sanatı</a>
+              </h1>
+              <h2><a href="/yazar/gokhan-arslan">Gökhan Arslan</a></h2>
+              
+              
+	onun sesini duydum
+	deniz, rüzgârla sürülmüş bir tarla gibi açıldı önümde
+	ıslak otların üzerine devrildi gökyüzü
+	yönünü dağlara vermiş ağaç gölgeleri
+	avlunun kuytusuna döndüler sabahın ilk ışığıyla
+	onun sesini duydum
+	ıssız tepelerden kopan kar taneleri
+	bütün bir ömrün çığını yığdı kalbime
+
+	az ötede, adını kuşlara bağışlamış bir sonbahar
+	ve dünyanın gözüne kaçan çalı dikenleri
+
+	onun sesini duydum
+	bir şehrin başka bir şehre yatıya gitmiş haliydi
+	kırgınlıklardan yapılma bir yazdan çıkarmıştı
+	koynunda üfleyerek uyuttuğu karıncaları
+	kırmızı saçlarıyla geçip gitmişti aramızdan
+	bizi birbirimizden uzağa fırlatan zaman
+
+	öyle bir deniz yaratmıştım ki ondan
+	boğulmasam olmazdı
+
+	onun sesini duydum
+	ve karanlıkta kürtçe kişneyen atların ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/karada-bogulma-sanati" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/olulerim-_onur_saylam_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/olulerim-_onur_saylam_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/olulerim">Ölülerim</a>
+              </h1>
+              <h2><a href="/yazar/yasin-ozturk">Yasin Öztürk</a></h2>
+              
+              
+	Bir güz karası geceni
+	Yüz kırmızılığında;
+	Kabristandaydım.
+
+	Ruhlar yırtıp yırtıp kefenlerini-
+	Yeniden defnedilenler
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yardım alarak
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Üst devrelerinden;
+	Yanıma gelip çömeldiler.
+
+	Beş
+	On
+	Yirmi derken
+	Sayımız küresel nüfusu geçti.
+
+	Küresel ölülerdik hepimiz-
+	Ben de onlardan biri:
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Neyini anlamazsın.
+
+	Sordukları;
+	Tek bir soru:
+	Dünya nasıl?
+
+	Dedim:
+	-Nasıl bıraktıysanız.
+
+	Ölülerimi üzmemek adına.
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/olulerim" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/10253178_10152347353198996_1938508934_n_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/10253178_10152347353198996_1938508934_n_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/3/yalnizlik">yalnızlık</a>
+              </h1>
+              <h2><a href="/yazar/serkan-turk">Serkan Türk</a></h2>
+              
+              
+	incir ağaçlarının altındaki masada
+	bazen reçele bulanmış elleriyle bakarlardı
+	gördüğüm olurdu terzileri
+	her biri bana kumaş bana kader biçerdi
+	dal olmaya gelenler vardı içlerinde
+	gül vermeye yeltenen dikenlerim acırdı
+
+	kime teyellendimse bin sökük aramızda&nbsp;
+
+	tadını çıkaracağım bir yaz bulurum elbet
+	geceyi bölüşeceğim başkaca kumsallar
+	yorgunsa ikimizin kalbidir, durmalıyız
+	uluorta yaşanmıyor artık acılar
+
+	sonsuz bir boşluk bulduk içimizde
+	doldur doldur bitmeyen yalnızlık koyduk adına
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/3/yalnizlik" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/Yasa_Vaol_Harp_1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/Yasa_Vaol_Harp_1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/yasa-varol-harp">Yaşa, Varol Harp</a>
+              </h1>
+              <h2><a href="/yazar/can-ozdemir">Can Mustafa Özdemir</a></h2>
+              
+              
+	Yüzeyde bir asker dalgalanıyor
+	dipte, kumullarda
+	bir martı uçuşu kımıldanıyor
+
+	gözlerine batan deniz tuzu,
+	yosunlardır gördüğün
+	en şanlı madalyanı
+	saklayan ve sahiplenen
+
+	denizde bir kahraman
+	elleri kanlı
+	- gerçekten -
+
+	
+	onuruna
+	hem şehrin en canlı meydanına
+	heybetli bir bulut dikilmeli ki
+	birileri koyuna benzetsin
+	birileri kurda
+	birileri yıksın
+	birileri tükürsün
+	birileri bir koysun
+	birileri öc alsın
+	birileri “hani bana” desin
+
+	“Halkına” desin mesela
+	“zulmetme”
+
+	kürsüde bir zırtapoz
+	elleri kanlı
+	- bak bu mecaz -
+
+	denizde bir delikanlı dalgalanıyor
+	son sigarası
+	hava kabarcıkları
+
+	tepede
+	demir gölge serinliğinde
+	kanatları yanık bir martı sessizliği
+
+	acı
+	yas
+	keder
+	mi dediniz?
+
+	Hangi yüzle? Hadi ordan!
+	&nbsp;
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/yasa-varol-harp" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/umudunsarkisi.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/umudunsarkisi.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/kilama-heviye-umudun-sarkisi">Kilama Hêviye (Umudun Şarkısı)</a>
+              </h1>
+              <h2><a href="/yazar/cigerxwin">Cigerxwîn</a></h2>
+              
+              
+	Kilama Hêviye
+
+	Tevirê gundî
+	Kilama hêvî ye
+	Tevirê gundî
+	Jiyan bi xwe ye
+
+	Hatin çûn sal ser sal
+	Gelê me birîndar û poxzîn
+	Me zulim xwar, zulim vexwar
+	Lê veşartî ye
+	Di dilê axê da
+	Tovê rojên delal
+
+	Li tevirê gundî
+	Av diçe, gul vedide
+	Li tevirê gundî
+	Dilê min bihar dide
+
+	&nbsp;
+
+	Umudun Şarkısı
+
+	Köylünün çapası
+	Umudun şarkısı
+	Köylünün çapası
+	Hayatın ta kendisi
+
+	Geldi, geçti üstüne yıl yılın
+	Halkımız yaralı ve perişan
+	Zulüm yedik, zulüm içtik
+	Fakat gizlenen
+	Gönlünde toprağın
+	Tohumlarıdır güzel günlerin
+
+	Köylünün çapasında
+	Su geçer güller açar
+	Köylünün çapasında
+	Gönlüm bahara kapı aralar
+
+	Çevirmen: Şenol Uysal
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/kilama-heviye-umudun-sarkisi" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/yaz.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/yaz.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/bir-yaz-gunu-revizyonu">Bir Yaz Günü Revizyonu </a>
+              </h1>
+              <h2><a href="/yazar/umit-aydin">Ümit Aydın</a></h2>
+              
+              
+	kocaman gözleriyle yeryüzünde beliriyor
+	devrim biraz da umut etmektir!
+	yalnız gagarin kırk yılda bir uzaya çıkıyor
+	bin yılda bir anca duyuyorum sesini
+	kadim biraz da ardını bilmemektir
+	-üç günlük çay hâlâ demleniyor-
+
+	harem ağları boğsun beni, evine dönmesin
+	bir turgut uyar daha ölsün bu geyikli gecede
+	elleriyle doğursun bir cumartesi kendini
+	ay yüzünü dönsün westphalen
+	sanki insanlaşıyorum gölgesinde bile bu büyük nehrin!
+	-yaşlanmak değil, yüzmek istiyorum-
+
+	sen bir sigara yakıyorsun, bir başka direniş uyanıyor
+	lakin sessizim, nedeni biraz şiir
+	her sustuğumda sarılmamız gerektiğine inanıyorum
+	seni sevebilmek, biraz da ima'nın neşridir
+	bekledikçe büyüyor sanki bu dehliz
+	-üç günlük çay hâlâ ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/bir-yaz-gunu-revizyonu" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/tarama0001_2.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/tarama0001_2.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/kumrunun-olumu">Kumrunun Ölümü</a>
+              </h1>
+              <h2><a href="/yazar/ayse-nalan">Ayşe Nalan</a></h2>
+              
+              
+	
+	Sendin, kendini bir yara bildin. Uyluğundan diz kapağına uzayan bir atlastı
+	derin – uğultun, kuytun üşüdüğümüz orman. Kımıltılarımız yarasıyla beslenen kurtçuklarımız ve onulmaz bir geçmiştir yörüngemizde dönen sineği tokatlayışımız. Gövdemizde iri yaban güller açtırır. Şark güller. Acıyı oradan baktırır, uyutur köklerinde. Hâlâ uyumadın mı?
+
+	Kıyıda ahşap iskemle. Dingin ikindiler -güneşten saklanacak tek ağacımız bile yok! Kararmış gümüşler gibidir şimdi avuçlarımızda saklanan. Otlar ve dallar durduğunda, güneş karardığında, bulut kendine bir kavis çizdiğinde senin burgacınla doğarım. Yarılan denizlerden, kopan dağlardan, yırtılarak kurtulur göğün. İşte benim sevdiğim, senin nefret ettiğin kuş sürüleri büyük
+
+	düzensiz ordular kurarak dağıtırlar içimizdeki nefreti. Akışını ezberledim.&nbsp;&nbsp;&nbsp;&nbsp; Sevdim ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/kumrunun-olumu" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/911293_10151989237118895_731543991_n.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/911293_10151989237118895_731543991_n.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/asagi-bak-tanrim">aşağı bak tanrım!</a>
+              </h1>
+              <h2><a href="/yazar/ayfer-feriha-nujen">Ayfer Feriha Nujen</a></h2>
+              
+              
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Berkin Elvan için…&nbsp;&nbsp;
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+	biz hiç mutlu değiliz diye başlıyor duaya
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; uykudaki çocuk
+	gözlerine mil mi çektiler
+	bu çığlık atan duyarsız minareler
+	ey her şeyi bir bütün halinde gören
+	tanrım
+	söndü ampül
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; duy/sana!
+	her şeyi
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gizliyi gizleneni
+	karanlığın sessizliğini duyan
+	kulaklarına dünyanın pisliği mi doldu
+	bu kan dolmuş ayakkabıların ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/asagi-bak-tanrim" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/kislik.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/kislik.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/2/kislik">Kışlık</a>
+              </h1>
+              <h2><a href="/yazar/akin-art">Akın Art</a></h2>
+              
+              
+	Kışa uzun düşüyor şehir
+	yolcuların kalabalık elleri
+	kedilere sokulan sokaklar,
+	odamdaki bekleyiş.
+
+	Yorgunluğunu taşıdı sofraya
+	bir çöpçü
+	düşen yağmuru
+
+	Yüzüm ağacın gölgesi;
+	Seni seviyorum.
+
+	Şiir diyorum;
+	Deniz kabuğu sesi kurumuş otlarda.
+
+	Çıkarıyoruz kışlık defterlerimizi.
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/2/kislik" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/fal-002.png.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/fal-002.png.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/fal">Fal</a>
+              </h1>
+              <h2><a href="/yazar/ozgur-demirci">Özgür Demirci</a></h2>
+              
+              
+	şimdi köpekbalıkları yüzdürürsün akvaryumunda
+	terlik altlarında aşk kâğıtları ezersin
+	ben tüllerde kelebek öldürürüm
+	bir damla su çeker seni
+	fallar ağrına ilaç olsun diye, kahve demlersin fincana
+	kavak yapraklarına pul yapıştırmayı denersin
+	zarlar havada döner
+	bal damlayacak sanırsın
+	bir tarafın git, bir tarafın kal derken
+	hem gidemez, hem kalamazken
+	bir dağınıklık belirir sesinde
+	balta yemiş ağaç gibi
+	sıkışır kalbin
+	bir kısalık bir uzunluğa eşitlenir etrafında
+	annen de bilmez ağrını
+	tıkırtılar
+	kağıt hışırtıları
+	fren sesleri
+	gelen giden insanlar arasında
+	kayboluverirsin
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/fal" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/isgal.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/isgal.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/isgal-altinda-farz-olmayan-mucmel-yaralar">İşgal Altında Farz Olmayan Mücmel Yaralar </a>
+              </h1>
+              <h2><a href="/yazar/umit-aydin">Ümit Aydın</a></h2>
+              
+              
+	cehennemi kundaklamışsın, bahset katlimden
+	ve ekmek ve suyla büyüyen yalnızlıktan
+	bahset, sana uzandıkça kırılan parmaklarımdan
+	sela sesidir zira, alır başını gider de
+	yeryüzünden kim hesap soracak henüz yaşıyorken?
+	kahrolsun evrensel yasalar ve diyalektik materyalizm!
+	kim bilir belki devrim hazırlığındadır maktuller
+	haziran gibi daha yeni sıcak -her şey ters ünlem
+	bu tekmil bu şahadet bana göre değil
+
+	sen, göğüsleri birer elvis olan
+	ve adını dört yüz doksan beş kilometreye
+	yenik düşürmüş nisyan!
+	nasıl bileklerini kesecekse şimdi
+	galata kulesinde kanatsız kalan mavi saçlı kadın
+	öyle saracak etrafını şarapla boğulan kardinaller
+	sen; bir haykırışla sımsıcak ölmek isteyen,
+	gölgesini zapteden ateş!
+	sürüyorlar sirayetini böyle ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/isgal-altinda-farz-olmayan-mucmel-yaralar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/ANEKDOT-1.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/ANEKDOT-1.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/maliyet-hesaplari-uzerine-bir-dugunden-anektodlar">Maliyet Hesapları Üzerine Bir Düğünden Anekdotlar</a>
+              </h1>
+              <h2><a href="/yazar/yusuf-turhalli">Yusuf Turhallı</a></h2>
+              
+              
+	V.
+
+	Adı anılmayan hiçbir kitapta ben
+	enkazdan çekilen kızarmış kol
+	bacağıyla vedalaşamadan bile
+	üstümde parkların sonsuz mutsuzluğu
+	işte zehirli bir sessizlik yanı başımda
+	saçlarım tütüyor, korkunca büyüyor gözleri annemin
+	annem korkuyor benden, bilemezsiniz
+	gökyüzünün her altı yangın yeri
+	tatlı yiyip tatlı konuşalım, dünya atlatır mı bu kâbusu!
+	aman canım siz de! hepi topu maliyet hesabı
+	işte ben! hiçbir kitapta anılmayan adı
+
+	biliyorum, çok iyi biliyorum da kapanmıyor artık dil
+	yanmanın tadına böyle teşne
+	kişioğlu kimi sözü yazıya geçiremez, yorulur
+	siz benden korkarsınız, parmaklarım kaçarak uzaklaşır
+	biraz yanık saç tütsüsü, biraz gözyaşı
+	ben geldim, anılmayan adı hiçbir kitapta
+	işte süslemek için ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/maliyet-hesaplari-uzerine-bir-dugunden-anektodlar" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/NSANBI1.JPG.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/NSANBI1.JPG.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/insan-matroska-bebegi-degil">İnsan Matröşka Bebeği Değil</a>
+              </h1>
+              <h2><a href="/yazar/ece-apaydin">Ece Apaydın</a></h2>
+              
+              
+	
+	Masamda ağıt yüzlü bir çocuk
+	en güzel çıraların çam kokusuyla
+	beni desteden çekiyor
+	ne çıkarsa dağına yazar mısın soruyor
+	bana ısırgan toplarsan yazarım diyorum
+	sen git çobanı aldat sürüyü dağıt
+	çocuk akşamüzeri köpeği öldürüyor
+	bir şişe şarap bir tabak üzüm
+	dünyamız boynuzların ucunda
+	belki de bir tepsidir fillerin tepindiği
+	annem de inanmıyor yuvarlak olduğuna
+	sen git bütün gece uyuma kafayı dağıt
+	çocuk sabaha otelin kapısında
+	elinde cennet elması beni uyandırıyor
+	git diyorum derdin ne
+
+	nereye gitsem bir uzak yurt bir bozlak savaş
+	açtığım gazetede akşam haberlerinde
+	seni nasıl uyku tuttu bu gece
+	sen git kağıda kaleme sarıl
+	ilk bahçeden ikinci ...
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/insan-matroska-bebegi-degil" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+      
+      
+        <section class="issuecontent ">
+            
+
+  <img class="issuecontent-bg" src="#"
+    data-src="/media/images/illustrations/thumbnails/olu-evi.jpg.968x400_q30_crop-smart.jpg" 
+    data-src-mobile="/media/images/illustrations/thumbnails/olu-evi.jpg.768x600_q30_crop-0%2C0.jpg"
+    alt="İçerik Resmi" title="İçerik Resmi" />
+
+
+            
+            <div class="issuecontent-link">
+              <h1>
+                <a href="/dergi/1/olu-evinden">Ölü Evinden</a>
+              </h1>
+              <h2><a href="/yazar/akin-art">Akın Art</a></h2>
+              
+              
+	Yağmur çarpıyor
+	avucunda yiten sıcaklığa,
+	yüzüne duvardaki,
+	boğazındaki boşluğa
+
+	
+	Fısıltılar yıkılmış
+	sıkıntısına ellerinin
+
+	
+	Süpürüyor sessizlik
+	Gecenin avlusunu
+
+	
+	Ölüm; gençliği toprağın.
+
+	&nbsp;
+
+	Yaz 2011
+
+	&nbsp;
+
+              
+              
+
+
+
+              <a class="more" href="/dergi/1/olu-evinden" data-toggle="tooltip" data-placement="top" title="Devamını oku" data-container="body" ><img src="/static/images/more.png" /></a>
+              
+            </div>
+        </section>
+      
+      
+  
+</section>
+
+      <div class="clearfix"></div>
+      <footer class="clearfix">
+        
+        <ul class="primary-menu pull-left">
+          
+<!-- <li><a href="/yazar/">Yazarlar</a></li>-->
+<li><a href="http://cercisanat.blogspot.com.tr/">BLOG</a></li>
+<li><a href="/manifesto/">MANİFESTO</a></li>
+<li><a href="/ekip/">EKİP</a></li>
+<li><a href="/site-kurallari/">SİTE KURALLARI</a></li>
+<li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>
+<li><a href="/iletisim/">İLETİŞİM</a></li>
+
+        </ul>
+        
+        <div class="copyright pull-right">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="/static/images/cc.png" /></a>
+        </div>
+      </footer>
+    </div>
+    
+  </body>
+</html>

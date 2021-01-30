@@ -1,0 +1,47 @@
+$(document).ready(
+function(){
+    $('a.tooltipped', tocContainer).tooltip();
+    
+    $('figure').photobox('a.galleryitem', {counter: false});
+    $('.photobox-gallery').photobox('a.galleryitem', {counter: false});
+
+    var tocStarter = $('div.toc-container a.toc-starter');
+    var tocContainer = $('div.toc-container');
+    var tocContentsWrapper = $('div.toc-contents-wrapper');
+    if (tocContainer.get(0) !== undefined) {
+      tocContainer.css('max-height', ($(window).height())+'px');
+      tocContentsWrapper.css('height', ($(window).height() - 50)+'px');
+      $(window).resize(function() {
+          tocContainer.css('max-height', ($(window).height())+'px');
+          tocContentsWrapper.css('height', ($(window).height() - 50)+'px');
+      });
+      tocStarter.click(function(e) {
+          e.preventDefault();
+          $('nav.toc').toggle('slow');
+      });
+      var theLoc = tocContainer.position().top;
+      $(window).scroll(function() {
+          if(theLoc +100 >= $(window).scrollTop()) {
+              if(tocContainer.hasClass('fixed')) {
+                  tocContainer.removeClass('fixed');
+              }
+          } else { 
+              if(!tocContainer.hasClass('fixed')) {
+                  tocContainer.addClass('fixed');
+              }
+          }
+      });
+    }
+
+    $('.font-minus').click(function(){
+      var currentSize = parseInt($('body').css('font-size'), 10);
+      $('body').css('font-size', currentSize - 1 + 'px');
+    });
+
+    $('.font-plus').click(function(){
+      var currentSize = parseInt($('body').css('font-size'), 10);
+      $('body').css('font-size', currentSize + 1 + 'px');
+    });
+
+    
+});

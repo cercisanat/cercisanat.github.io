@@ -1,0 +1,195 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content a {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 0 1em;
+  line-height: 1.5em;
+}
+
+h1 + p,
+h2 + p,
+h3 + p {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  color: black;
+  line-height: 1.3em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+
+a, a:link, a:active, a:visited{
+  color: black;
+}
+
+a:hover, a.label:hover {
+  color: #63AA9C;
+  text-decoration: none;
+}
+
+.primary-menu li{
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  list-style: none;
+}
+
+footer{
+  position: relative;
+  margin-top: 30px;
+  background-color: white;  
+  padding: 10px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-inverse {
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: white;
+    color: black;
+}
+
+ul.social > li > a {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 1.6em;
+}
+
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content {
+    font-size: 1.2em;
+    color: black;
+    min-height: 400px;
+}
+
+.logo-wrapper {
+    margin-bottom: 10px;
+}
+
+.genres-wrapper {
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.genres {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.genres .separator {
+    color: gray;
+}
+
+.genres li a {
+    padding: 5px;
+}
+
+.genres li > a:focus,
+.genres li > a:hover,
+.genres li.active a {
+    background-color: black;
+    color: white;
+} 
+
+.subscription-form {
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .genres {
+        font-size: 1em;
+    }
+    .genres li {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .logo-wrapper {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .issuecontent-bg {
+        width: 200% !important;
+        left: -100% !important;
+        top: -100% !important;
+        height: 200% !important;
+    }
+}

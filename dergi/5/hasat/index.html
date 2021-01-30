@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="tr-TR" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <title>
+Hasat | Çerçi-Sayı 5
+</title>
+    
+  
+    
+
+<meta charset="utf8" />
+<meta http-equiv="Content-Language" content="tr" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic|Ubuntu+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="shortcut icon" href="/static/favicon.ico" />
+<link rel="stylesheet" href="/static/css/template.css" type="text/css"/>
+<link rel="stylesheet" href="/static/css/animations.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.css" type="text/css"/>
+<link rel="stylesheet" href="/static/photobox/photobox.ie.css" type="text/css"/>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/static/css/ie8.css" type="text/css"/>
+<![endif]-->
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/static/ajax_forms/js/jquery-ajax-validation.js"></script>
+<script type="text/javascript" src="/static/photobox/jquery.photobox.js"></script>
+<script type="text/javascript" src="/static/js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="/static/js/responsive/main.js"></script>
+
+
+
+    
+  
+  <link rel="stylesheet" href="/static/css/issuecontent.css" type="text/css"/>
+  <link rel="stylesheet" href="/static/css/toc.css" type="text/css"/>
+  <link rel="stylesheet" href="/static/css/author_component.css" type="text/css"/>
+  
+  
+  <script type="text/javascript" src="/static/js/responsive/issuecontent.js"></script>
+  <script type="text/javascript">
+  var addthis_config = {
+        ui_language: "tr"
+        //"data_track_addressbar":true 
+  } 
+  </script>
+   
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5197ecf45f1cbd3d"></script>
+  <!-- add these meta tags for facebook -->
+  <meta property="og:url" content="http://localhost:8000/dergi/5/hasat" />
+  <meta property="og:title" content="'Hasat' &lt;a href=&quot;/yazar/fahri-alpyurur&quot;&gt;Fahri Alpyürür&lt;/a&gt; | Çerçi Sanat - Sayı 5" />
+  <meta property="og:description" content="“Ofis, çiftçinin karagün dostudur.”
+	Buraya geldiğim günden beri her sabah gözlerimi açtığımda, bu yazıyı görüyordum. Gri bir duvar üzerine siyah harflerle yazılmış bir yazı... Güneşin doğuşunu göremiyordum. Benim bulunduğum binanın arkasından doğuyordu. Öğlen vakitlerinde biraz yükselince, karşımdaki yazıyı aydınlatıyordu. O zaman da işçiler öğlen yemeğine çıkmış oluyorlardı. Bir de personeller ..." />
+  
+  
+    
+  <meta property="og:image" content="http://localhost:8000/media/images/illustrations/10841424_10154925420800075_540498815_n.jpg" />
+    
+  
+  
+  <meta property="og:site_name" content="Çerçi Sanat"/>
+
+  </head>
+  <body>
+    
+      <header class="clearfix">
+        
+        
+        
+        <nav role="navigation" class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse"
+                data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand">
+              <img class="rotate" src="/static/images/cerci_logo2_white.png" style="height:30px" />
+              </a>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+              <ul class="auto-active nav navbar-nav navbar-left"> 
+                <li><a href="/manifesto/">MANİFESTO</a></li>
+                <li><a href="/ekip/">EKİP</a></li>  
+                <li><a href="/yazar/">ÇERÇİLER</a></li>
+                <li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>  
+                <li><a href="/blog/">BLOG</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      title="Abone ol"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-book"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <div class="subscription-form">
+                      <h3>E-posta aboneliği</h3>
+                      <form action="/newsletters/" method="post" class="ajax-form subscribe-form">
+                      <p>
+                        Abone olun ve yeni sayımız çıktığı anda haberiniz olsun.<br/>
+                        (Abonelikten istediğiniz zaman ayrılabilirsiniz.)
+                      </p>
+                      <input type='hidden' name='csrfmiddlewaretoken' value='oTZmdamlmaKaf6wjiQdXdwdhdttQunDD' />
+                      
+
+
+
+
+    
+<div class="form-group id_name ">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_name" maxlength="255" name="name" placeholder="İsim" type="text" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+    
+<div class="form-group id_email  required">
+    
+        
+        
+        <div class="form-group">
+            <input id="id_email" maxlength="255" name="email" placeholder="Email" type="email" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+
+
+                      <button type="submit" class="btn">Abone ol</button>
+                      </form>
+                      <div class="clearfix"></div>
+                      <div class="subscribe-success">
+                        E-posta aboneliğine üyeliğiniz başarıyla gerçekleşti.<br/>
+                        Bir kayıt daha yapmak için <a href="/newsletters/" class="another-subscription">tıklayın</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle"
+                      data-toggle="dropdown" role="button"
+                      aria-expanded="false"><i class="fa fa-search"></i>
+                  </a>
+                  <div class="dropdown-menu" role="menu">
+                    <form action="/arama" class="navbar-form" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="q" placeholder="Arama" />
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+              
+              <ul class="nav navbar-nav navbar-right social">
+                <li>
+                  <a href="https://www.facebook.com/CerciSanat" target="_blank"
+                    title="Facebook'ta Çerçi Sanat">
+                      <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/cercisanat" target="_blank"
+                    title="Twitter'da Çerçi Sanat">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://plus.google.com/107839000424667573646/posts"
+                    target="_blank" title="Google+'ta Çerçi Sanat">
+                    <i class="fa fa-google-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://pinterest.com/cercisanat/" target="_blank"
+                    title="Pinterest'te Çerçi Sanat">
+                    <i class="fa fa-pinterest-p"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/cercisanat/" target="_blank"
+                    title="Instagram'da Çerçi Sanat">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/cercisanat" target="_blank"
+                    title="Github'da Çerçi Sanat">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+
+              </ul>
+              
+            </div>
+          </div>
+        </nav> 
+        
+        <div class="clearfix"></div>
+      </header>
+    <div class="container">
+      
+      
+
+
+      
+<section class="issuecontent clearfix">
+    
+      
+        
+
+
+<div class="toc-container clearfix">
+  
+  <a href="/dergi/5/dokunmaya-agit"
+    class="icona prev pull-left tooltipped"
+    data-toggle="tooltip" data-placement="bottom" data-container="body"
+    title="Önceki"><i class="fa fa-arrow-left"></i>
+  </a>
+  
+  <a href="/" class="icona home-link tooltipped rotate"
+    data-toggle="tooltip" data-placement="bottom" data-container="body"
+    title="Çerçi Sanat Anasayfa"></a>
+  <a href="#" class="icona toc-starter tooltipped" data-toggle="tooltip"
+    data-placement="bottom" data-container="body" title="İçindekiler">
+    <i class="fa fa-th-list"></i></a>
+  
+    <a href="/dergi/5/direnis-1" class="icona next pull-right tooltipped"
+      data-toggle="tooltip" data-placement="bottom" data-container="body"
+      title="Sonraki"><i class="fa fa-arrow-right"></i></a>
+   
+  <a href="#" class="font-plus icona pull-right" data-toggle="tooltip"
+    data-placement="bottom" data-container="body" title="Font +">
+    <i class="fa fa-font"></i>
+  </a> 
+  <a href="#" class="font-minus icona small pull-right" data-toggle="tooltip"
+    data-placement="bottom" data-container="body" title="Font -">
+    <i class="fa fa-font"></i>
+  </a>
+  <nav class="toc">
+    <a class="issue_link" href="/dergi/5" title="Dergi sayfasına geri dön">
+        <img class="cover pull-left" src="/media/images/issue/thumbnails/cercisanat_kapak_5.jpg.210x297_q85.jpg" alt="Çerçi Sayı 5, January 2015" />
+    </a>
+    <div class="toc-contents-wrapper">
+      <div class="toc-contents">
+        <ol>
+          <li>
+          <strong><a href="/dergi/5">İçindekiler</a></strong><br/>
+          <em>editörden</em>
+          </li>
+
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/cuvaldizi-kendine-igneyi-baskasina-batiran-oykuler">Çuvaldızı Kendine İğneyi Başkasına Batıran Öyküler</a></strong><br/>
+            <em>Şengül Can</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/yersiz-yurtsuz">Yersiz Yurtsuz Karakterlerin Öyküleri</a></strong><br/>
+            <em>Tuğçe Ayteş</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/uc-yazar">Üç Yazar</a></strong><br/>
+            <em>Tülay Akyol</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/oykunun-cinsiyeti">Öykünün Cinsiyeti</a></strong><br/>
+            <em>Özlem Şan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/ilahi-su-kadinlar">İlahi Şu Kadınlar...</a></strong><br/>
+            <em>Ayten Berberoğlu</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/melek-ekim-yildizla-cevrimici-soylesi">Melek Ekim Yıldız&#39;la Çevrimiçi Söyleşi</a></strong><br/>
+            <em>Şengül Can</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/oyku-bulusmalari-bulusma-oykuleri">Öykü Buluşmaları Buluşma Öyküleri</a></strong><br/>
+            <em>Özlem Şan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/reyhan-yildirimla-cevrimici-soylesi">Reyhan Yıldırım&#39;la Çevrimiçi Söyleşi</a></strong><br/>
+            <em>Şengül Can, Özlem Şan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/ekin">Ekin</a></strong><br/>
+            <em>Talita Yaltırık</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/bir">Bir </a></strong><br/>
+            <em>Ali Kırkar</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/dokunmaya-agit">Dokunmaya Ağıt</a></strong><br/>
+            <em>Doğa Çam</em>
+          </li>
+          
+        
+        
+        
+          
+          <li class="active">
+            <strong>Hasat</strong><br/>
+            <em>Fahri Alpyürür</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/direnis-1">Direniş</a></strong><br/>
+            <em>Servet Karaaslan</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/karsiz">Karsız</a></strong><br/>
+            <em>Erkan Karakiraz</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/kaya-kartali">Kaya Kartalı</a></strong><br/>
+            <em>Emine Aydoğdu</em>
+          </li>
+          
+        
+        
+        
+          
+          <li>
+            <strong><a href="/dergi/5/ya-gozlerim-konusursa">Ya Gözlerim Konuşursa</a></strong><br/>
+            <em>Nilgün Admeş</em>
+          </li>
+          
+        
+        
+        </ol>
+      </div>
+    </div>
+  </nav>
+</div>
+
+      
+      
+      
+        
+
+
+
+
+
+<hgroup class="main-hgroup">
+    <h1 class="title" id="content-186">Hasat
+    
+    </h1>
+    <cite class="author"><a href="/yazar/fahri-alpyurur">Fahri Alpyürür</a></cite>
+</hgroup>
+
+
+
+<figure class="image-container pull-left span3 ">
+  <a class="galleryitem" href="/media/images/illustrations/thumbnails/10841424_10154925420800075_540498815_n.jpg.1200x1200_q85.jpg" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Daha büyük boyutlusunu görmek ve yakınlaştırabilmek için tıklayın.">
+  <img class="content-image" src="/media/images/illustrations/thumbnails/10841424_10154925420800075_540498815_n.jpg.400x400_q85.jpg" alt="hasat" />
+  </a>
+  <figcaption>
+  <h1>hasat</h1>
+  <cite class="image-authors"><a href="/yazar/onur">Onur Saylam</a></cite><br/>
+  
+  </figcaption>
+</figure>
+
+<div class="body ">
+  <div class="content">
+      
+      <p>
+	“Ofis, çiftçinin karagün dostudur.”<br />
+	Buraya geldiğim günden beri her sabah gözlerimi açtığımda, bu yazıyı görüyordum. Gri bir duvar üzerine siyah harflerle yazılmış bir yazı... Güneşin doğuşunu göremiyordum. Benim bulunduğum binanın arkasından doğuyordu. Öğlen vakitlerinde biraz yükselince, karşımdaki yazıyı aydınlatıyordu. O zaman da işçiler öğlen yemeğine çıkmış oluyorlardı. Bir de personeller vardı tabi. Onlar işçilerin içinde kolaylıkla ayırt edilebiliyordu. Kravatlılardı ve Maltepe içiyorlardı. İşçilerin sigarası ise Bafra’ydı. İşçilerin içinde dolaşıyordum sessizce. Kimi benimle dertleşiyor kimi beni görünce çaktırmadan uzaklaşıyordu. Ofise günde otuz kırk kamyon geliyordu. O günlerde buğday alımı yapıyorduk. Devasa kantarlarda kamyonlar tartılıyor, sonra tartılan kamyonun markası, modeli öğrenilip tartıdan düşülüyor, kalan sayı, ofisin o çiftçiden alacağı buğdayı ifade ediyordu.<br />
+	Uzun uğraş. Ekmek derdi. Sıcak havanın altında yanan tenler. Harareti alan sıcak bir bardak çay, yanında sigara. Buğday satmaya gelen köylünün de sigarası Bafra.<br />
+	<br />
+	***</p>
+<p>
+	“Yaptırdın mı senin traktörü İrfan Dayı?”<br />
+	“Yok evladım, ne mümkün. Allah yüzümüze baktı da hasattan sonra bozuldu. Yoksa kalırdı vallahi buğday tarlada. Şimdi güzel bir fiyata satarsam, traktörü yaptıracağım. Bir de tohum alınacak. Oğlan askerde, ona gönder derken kıt kanaat doyacak karnımız.”<br />
+	“Hayırlısı olsun. Gönlünü ferah tut. Bu sene fiyatlar yükselmiş diyorlar.”<br />
+	“Dörtbinbeşyüz lira dayı.”<br />
+	Gömleğinin düğmesini açıp kravatını gevşeten tartı memuru buğdayın fiyatını elindeki hesap makinesiyle hesaplamış, sigarasının külünü silktikten sonra konuşmayı böyle bölmüştü. Ben de kantarın yanında durmuş olan biteni izliyordum.<br />
+	“Dörtbinbeşyüz gayme mi ediyor şimdi bunca buğday?”<br />
+	“He ya, beşbin veren yer biliyorsan söyle de bu kadar kişi sırada beklemesin.”<br />
+	Diğer tartı memurları ve işi biten köylüler güldüler.<br />
+	Bir terslik olduğunu fark eden Mehmet yaklaştı.<br />
+	“Hayırdır İrfan Dayı?”<br />
+	İrfan, Mehmet’e bakıp tekrar tartı memuruna döndü.<br />
+	“Yanlışın var kardeşim, az tuttu.”<br />
+	“Yok dayı, vallahi de bu kadar. Hatta bu kadar zahmet çektin, yüz lira da fazla verdim hesabı yuvarlayıp.”<br />
+	“Al haydi, sizden başka kime satacağız ki zaten. Ne derseniz o, buranın marabası biziz, ağası siz.”</p>
+<p>
+	***<br />
+	<br />
+	Akşam oldu...<br />
+	Bugün alımların son günüydü. Artık hesap kitap işleri görülecekti. Sonra&nbsp; da buğdayların fabrikalara gönderilmesi... Bir iki haftadır ofise köylüler gelip gidiyordu. Onlarla vakit geçirmek hoş oluyordu. Onlar anlıyordu halimden. Dertleşiyorduk. Yemeklerine davet eden bile oluyordu bazen. Şimdi yine bu somurtkan insanlara kalmıştım. Gece çıkıp biraz dolaştık bekçi arkadaşlarla. Yeni&nbsp; geldiğim için bana pek iş vermiyorlardı. El fenerlerini yakıp ambarların içine göz attık. Zaten yeni gelen müdür de beni pek sevmedi. Hem yeniydim hem de müdürün gözüne batmayı başarmıştım. Korkak adamın tekiydi. Dün gece olduğu gibi bu gece de üç kez telsizden seslendi.<br />
+	“Ambarların ordan ses geldi, gidin bakın.”</p>
+<p>
+	***</p>
+<p>
+	Mesai başlamadan on beş dakika önce gelmişti yine Mehmet ve Sadık. Arkadaşlarını beklerken bir yandan da dertleşiyorlardı.</p>
+<p>
+	“Hayırdır Mehmet canın sıkkın?”<br />
+	“İrfan Dayı’ya üzüldüm Sadık. Adamın traktörü bozulmuş hasattan sonra ikibin lira masraf istemişler. Oğlu askerde iki aydır para gönderemiyormuş. Tohum alacak o da ayrı dert. Hepsini halledecek de bir sene kalan parayla geçinecek.&nbsp; Adam buraya bir umutla geldi, bu sene fiyatlar yükselmiş diye duydum, dedim ben de. İyice sevindi.”<br />
+	“Eee, kaç aldı buğdaydan?”<br />
+	“Dörtbinbeşyüz, itiraz edince de o yeni gelen tartı memuru da alay etti üstelik.”<br />
+	“Vay ki ne vay! Ama bir şey diyeyim sana, bu sene fiyatlar yükselecek diye yazdı gazeteler köylü hâlâ şikayetçi fiyatlardan. Ya köylü açgözlülük ediyor ya da...”<br />
+	“Ya da ne?”<br />
+	“Ya da bu müdür bir haltlar karıştırıyor kardeşim.”<br />
+	“Vallahi şaşırmam, geldiğinden beri sevemedim şu adamı.”</p>
+<p>
+	***</p>
+<p>
+	Yine öğlen yemeği saatiydi. Alımlar bittiğinden beri ofis sakindi. Müdürün her gece ettiği ihbarları saymazsak.<br />
+	Şimdi yemeğini yiyen herkes kafasını dağıtmaya çalışıyordu. Kimi çay içiyor, kimi sigara,... Kimileri de üçlü beşli kümelenmiş sohbet ediyordu. Çünkü biraz sonra ziller çaldı mı herkes işinin başına dönüp, emirkulu olacaktı. Her zamanki gibi yine işçilerin arasında geziyordum. Ambar amiri, müdürün işe aldırdığı tartı memuru ve birkaç işçi duvarın dibine oturmuş konuşuyorlardı.<br />
+	“Bu akşam gireceğim, müdür öyle dedi. Ambar nöbeti Niyazi’deymiş zaten.”<br />
+	İşçilerden birinin adı Niyazi’ydi. Tartı memurunun konuşmasından bunu anlamıştım.<br />
+	Ardından ambar amiri, kel ve göbekli adam konuştu. Onun adının Ferhat olduğunu biliyordum.<br />
+	“Hüseyin zaten son sayıma yazdırmış kendini, gece burada. Onu gece ofiste gören olsa bile, tartı memuru olduğundan kimse şüphelenmez. Niyazi nöbette, ben de herkes çıkınca ambarda kalacağım.”<br />
+	Tartı memuru Hüseyin de başını sallayarak onayladı. Diğer işçi, tezcanlı lafa atladı.<br />
+	“Ben de içeri girip dediğiniz yerden parayı alacağım.”<br />
+	Hepsinin gözlerinin içi güldü. Hep bir ağızdan “Evet” dediler.</p>
+<p>
+	***  </p>
+<p>
+	Gece beni uyku tutmadı. Camımdan dışarıyı izliyordum. Niyazi’yi, Hüseyin’i ve o işi bitirecek işçiyi görmeye çalışıyordum. Belli ki bir iş çevirmişler, birilerinin hakkına girmişlerdi. Gece gündüz burdaydım. Buna ancak ben engel olabilirdim. Saat ilerledi, ilerledi, ilerledi... Hatta Bekçi Gündüz ile arkadaşı Saffet nöbet bile değiştirdi. Ofisin avlusunda sağına soluna korkarak bakan Hüseyin’i gördüm nihayet. Kapıyı aralayıp yavaş adımlarla dışarı çıktım. Hüseyin ambara doğru yürüdü. Kollarını havaya kaldırdı. Anlaşılan Ferhat ambar tarafını tutarken, Hüseyin de avluyu tutacaktı. Niyazi bu gece zaten ambar nöbetçisi olduğundan o da kapılara bakıyordu. Hüseyin müdürün odasının olduğu tarafa baktı ve koluna astığı düdüğünü hafifçe öttürdü. Bu içerdeki hırsız arkadaşı için “Tamam, çık” demekti. Genç adam, pencerenin demir parmaklıklarına tutunup aşağıya atladı. Ambar tarafına doğru koşmaya başladı. Ben de yanımda duran sepetlere vurdum. Hüseyin korkuyla seslendi.<br />
+	“Kim var orada?”<br />
+	Hırsızın peşine düşmüştüm. Hüseyin’in sesine Saffet geldi.<br />
+	“Ne oldu?”<br />
+	Hüseyin, panikle bir çuval inciri berbat etti.<br />
+	“Kaçtı hırsız, kaçtı o tarafta.”<br />
+	Hırsız koşuyordu ben de peşinden koşuyordum. Saffet’in silah seslerine Niyazi de korkusundan çitlerin dibine tünemişti. Atlayıp hırsızı yakaladım. Saffet gelip ellerini bağladı. Yüzüne el fenerini tutunca hayrete düştü.<br />
+	“Ne işin var lan senin burada? Bekçi Saffet’in kardeşi yine hırsızlık yapıyor diyecekler şimdi de. Allah belanı versin senin.”<br />
+	Ardından dönüp bana baktı. Ben ambara doğru koşmaya başladım. Ambarın kapısını açtığımızda Ferhat’ı bulduk. Saffet onun da ellerini bağlayıp kardeşi Hikmet’in yanına getirdi.<br />
+	O sırada bağırtıları duyan Bekçi Gündüz polis çağırmıştı. Bir anda ofisin etrafını kırmızı mavi ışıklar sardı.<br />
+	“Yat yere yat! Polis!”<br />
+	“Komiserim ben bekçiyim.”<br />
+	“Adın ne evladım?”<br />
+	“Saffet komiserim.”<br />
+	<br />
+	***  </p>
+<p>
+	Polisler Hikmet’i, Ferhat’ı konuşturup işin içinde Niyazi ile Hüseyin’in de olduğunu öğrenmişlerdi. Onlar da elleri kelepçelenip arabalara koyulmuştu. İşin içinde yeni gelen müdürün de olduğu açığa çıkmıştı haliyle. Şafak sökmek üzereydi. Ben Saffet ve Gündüz’ün yanındaydım. Komiser, yanımıza geldi.<br />
+	“Şunlara bak, tamamen orgazine iş. Müdür alımların başından itibaren eksik hesap yaptırıyor. Yaklaşık kazancın yüzde yirmisi bunların elinde. Kaç gecedir de anons yaptırıyormuş, ambarın ordan ses geldi gidin bakın diye. Sonradan olay açığa çıkarsa sesler duyduğunu söyleyecek. Ben uyarmıştım diyip işin içinden çıkacak. İşin en kötüsü de sen parayı ayır, bu çocuğu da alet et. Olaya hırsızlık süsü verip parayı daha sonra bölüşeceğiz de.”<br />
+	Saffet’in duyduğu üzüntüyü herkes anlıyordu. O da konuşma gereği duydu.<br />
+	“Huylu huyundan vazgeçmiyor komiserim. Olaya alet ettikleri çocuk benim öz kardeşim. Adam olur belki diye burada işe aldırdım ne zorluklarla. Sırtını devlete dayasın dedim. Eli iyice iş tuttuktan sonra da evlendirecektim. Ama o yine böyle işlere bulaştı.”<br />
+	“Yine derken?”<br />
+	“Eskiden de köyde hırsızlık yapmıştı, araya biz girmiştik de polise vermemişlerdi iti.”<br />
+	Komiser, duruma üzüldü. Bekçi Gündüz’e döndü.<br />
+	“Peki sen ne diyorsun var mıdır sence olayın içinde başka birileri?”<br />
+	“Olay sırasında benim nöbetim bitmişti komiserim. Kimseyi görmedim.”<br />
+	“Nasıl yani, bu adamların hepsini sen mi yakaladın Saffet? Kahraman mı olacaksın başımıza?”<br />
+	Gülüştüler. Saffet beni gösterdi.<br />
+	“Yok komiserim, yalnız değildim. Asıl kahraman bu. Peşinden koştu, tuttu, yakaladı. Sonra ambara koştu, orada da Ferhat’ı görmüş olacak herhalde. Ferhat’ı da yakalamış olduk sayesinde.”<br />
+	Komiser de şefkatle baktı bana. Dudaklarını büküp kafasını salladı. Sonra başımı sıvazladı.<br />
+	“İşte” dedi.<br />
+	“Her ofise böyle bir bekçi köpeği lazım.”</p>
+
+    
+
+
+
+<div class="author-component">
+    <a href="/yazar/fahri-alpyurur">
+      <img class="img-circle"
+        src="/media/images/author/thumbnails/12071582_749227298516597_577369981_n.jpg.200x200_q85_box-76%2C0%2C834%2C906_bw_crop_detail.jpg" />
+      <h3>Fahri Alpyürür</h3>
+        Diğer eserleri
+    </a>
+</div>
+
+
+
+  </div>
+</div>
+
+
+      
+      <div class="clearfix"></div>
+      
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style ">
+          <a class="addthis_button_preferred_1"></a>
+          <a class="addthis_button_preferred_2"></a>
+          <a class="addthis_button_preferred_3"></a>
+          <a class="addthis_button_preferred_4"></a>
+          <a class="addthis_button_compact"></a>
+          <a class="addthis_counter addthis_bubble_style"></a>
+          </div>
+          <!-- AddThis Button END -->
+      
+      <a href="/dergi/5/dokunmaya-agit"
+            class="icona large black prev pull-left tooltipped"
+            data-toggle="tooltip" data-placement="bottom" data-container="body"
+            title="Önceki">
+            <i class="fa fa-arrow-left"></i>
+      </a>
+      
+      <a href="/dergi/5/direnis-1" class="icona large black next pull-right tooltipped"
+            data-toggle="tooltip" data-placement="bottom" data-container="body"
+            title="Sonraki">
+            <i class="fa fa-arrow-right"></i>
+      </a>
+       
+
+
+</section>
+
+      <div class="clearfix"></div>
+      <footer class="clearfix">
+        
+        <ul class="primary-menu pull-left">
+          
+<!-- <li><a href="/yazar/">Yazarlar</a></li>-->
+<li><a href="http://cercisanat.blogspot.com.tr/">BLOG</a></li>
+<li><a href="/manifesto/">MANİFESTO</a></li>
+<li><a href="/ekip/">EKİP</a></li>
+<li><a href="/site-kurallari/">SİTE KURALLARI</a></li>
+<li><a href="/yazi-gonder/">YAZI GÖNDER</a></li>
+<li><a href="/iletisim/">İLETİŞİM</a></li>
+
+        </ul>
+        
+        <div class="copyright pull-right">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="/static/images/cc.png" /></a>
+        </div>
+      </footer>
+    </div>
+    
+  </body>
+</html>
